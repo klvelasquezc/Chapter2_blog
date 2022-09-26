@@ -1,38 +1,19 @@
-name: "website"
-title: "Introducción a la estadística inferencial"
+name: "Blog_Diversidad"
+title: "KLV"
 description: |
-  Página del curso en su versión 2022
+  Material suplementario del poster 
 output_dir: "docs"
+creative_commons: CC BY-SA
 navbar:
+  logo:
+    image: img/dipo1.png
   right:
-   - text: "Scripts"
-     menu:
-      - text: "Estimación 1"
-        href: Estimacion1.html
-      - text: "Estimación 2"
-        href: Estimacion2.html
-      - text: "Estimación 2 bis"
-        href: Estimacion2bis.html
-      - text: "Exploratorios"
-        href: Exploratorios.html
-      - text: "Paneles de correlación"
-        href: PanelCorrel.html
-      - text: "Prueba de hipótesis 1"
-        href: Phunapob.html
-      - text: "Prueba de hipótesis 1 bis"
-        href: Phunapobbis.html
-      - text: "Prueba de hipótesis 2"
-        href: Phdospob.html
-      - text: "Prueba de hipótesis 2 bis"
-        href: Phdospobbis.html
-      - text: "Regresión simple"
-        href: Regresionsimp.html
-      - text: "Correlación"
-        href: Correlacion.html
-      - text: "ANDEVA"
-        href: ANDEVA.html
-      
+    - icon: fab fa-github
+      href: 
+    
 output:
   distill::distill_article:
    highlight: rstudio
    toc: true
+   toc_depth: 3
+   css: tema_Karen.css
