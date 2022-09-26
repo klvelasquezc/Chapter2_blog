@@ -1,0 +1,135 @@
+---
+title: "Script Correlación"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r echo=FALSE}
+library(downloadthis)
+
+## Link del script
+download_link(
+  link = "https://drive.google.com/file/d/14dcOBb5LNL6YxfrMIr9UmAVLcrxN87zr/view",
+  button_label = "Descargar script",
+  button_type = "primary",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+```
+
+```{r echo=FALSE}
+## Link del script pdf
+download_link(
+  link = "https://github.com/gpandradep/Intro_est_inecol_website/raw/main/scripts/Correl.pdf",
+  button_label = "Descargar script en pdf",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+
+# R.1 
+
+Vamos a ver una serie de datos para ver si existe una relación lineal entre ellos.
+
+```{r eval=FALSE}
+data<-read.table("twosample.txt",header=T)
+attach(data)
+data
+```
+
+```{r include=FALSE}
+data<-read.table("data/twosample.txt",header=T)
+attach(data)
+data
+```
+
+```{r}
+plot(x,y)
+```
+
+Se acuerdan que necesitamos primero para calcular el coeficiente de correlación de pearson?
+Las varianzas individuales
+
+```{r}
+var(x)
+var(y)
+```
+
+¿y que más?
+La covarianza y estamos hechos
+
+```{r}
+var(x,y)
+```
+
+Ahora calculamos r
+
+```{r}
+var(x,y)/sqrt(var(x)*var(y))
+```
+
+Ahora hagamoslo en automático
+
+```{r}
+cor(x,y)
+```
+
+Y ahora hagamos la prueba de hipótesis
+
+Calculamos EE de r
+
+```{r}
+EEr<-((1-(cor(x,y)^2))/(length(x)-2))^0.5
+EEr
+```
+
+Calculo t de la muestra
+
+```{r}
+te<-cor(x,y)/EEr
+te
+```
+
+Calculo t de tablas
+
+```{r}
+qt(0.975,47)
+```
+
+Calculo la p
+
+```{r}
+2*(1-pt(18.67914,47))
+```
+
+Ahora hagamoslo de manera automática
+
+```{r}
+pearson<-cor.test(x,y)
+pearson
+```
+
+¿Que nos falta?. Pues no sabemos si cumplimos con los supuestos. Veamos el de normalidad
+
+```{r}
+par(mfrow=c(1,2))
+qqnorm(x, main="Q-Q plot x"); qqline(x, col = 2, lty = 2)
+qqnorm(y, main="Q-Q plot y"); qqline(y, col = 2, lty = 2)
+```
+¿Que opciones tengo?.
+
+ 1. Hacer una prueba de sesgo y kurtosis para ver si estas desviaciones son significativas
+
+ 2. Si son significativas, puedo intentar transformaciones o puedo utilizar muchas de las otras pruebas de correlación que son  robustas a la violación de este supuesto.
+_Vean Q y k p.76 y Crawley p.97-102._
+
+# Fin
+
+
