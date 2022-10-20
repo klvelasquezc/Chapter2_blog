@@ -29,6 +29,7 @@ author:
     orcid_id: 0000-0001-9520-6543
     
 site: distill::distill_website
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -37,7 +38,11 @@ knitr::opts_chunk$set(message=FALSE,
 
 ```
 
-<aside>![](https://centrosconacyt.mx/wp-content/themes/cp-child/img/logos/INECOL.jpg "Inecol"){width="112"}</aside>
+<aside>
+
+![](https://centrosconacyt.mx/wp-content/themes/cp-child/img/logos/INECOL.jpg "Inecol"){width="112"}
+
+</aside>
 
 # Librerías
 
@@ -54,7 +59,6 @@ library(hrbrthemes) # Additional Themes, Theme Components and Utilities for 'ggp
 library(ggpubr) # 'ggplot2' Based Publication Ready Plots
 library(ggdist) # Visualizations of Distributions and Uncertainty
 library(parameters) # Processing of Model Parameters
-library(hillR) # Diversity Through Hill Numbers
 ```
 
 # Preparación datos
@@ -77,9 +81,8 @@ PM <- read.csv("Roedores_doctorado110922.csv", sep=",", header = T) %>%
   select(-Epiteto,) %>%
   replace(is.na(.),0) %>%  
   column_to_rownames(var = "Especies")
-PM
+knitr::kable(PM)
 ```
-
 
 ```{r Diversity, echo=FALSE}
 X <- iNEXT(PM, q=c(0,1,2), datatype="abundance", )
@@ -129,12 +132,11 @@ div <- bind_rows(N57, N58, N60, N61, N62, N63, N64,
 
 ```
 
-
 ## Perfil de diversidad por nodo
 
-Estimadores qD0, qD1 y qD2
+Diversidad observada por nodo para los perfiles de qD0, qD1 y qD2.
 
-```{r perfil D, echo=FALSE, fig.width=12, fig.height=8}
+```{r perfil D, echo=FALSE, fig.height=8, fig.width=12, message=FALSE, warning=FALSE}
 
 
 perf <- bind_rows(N57, N58, N60, N61, N62, N63, N64,
@@ -176,23 +178,24 @@ PerfPlot <- ggplot(perf, aes(x=nodo, y=qD,
 PerfPlot
 ```
 
-
 ## Modelado
 
-Modelamos la influencia de la integridad ecológica sobre los la diversidad taxonómica de los pequeños mamíferos. Empleamos 
+Modelamos la influencia de la integridad ecológica sobre la diversidad taxonómica de los pequeños mamíferos. La integridad se incorporo en los modelos a tres escalas, categóricas (integro/degradado) y por el valor de indice en pixeles de 250m y 1km.
 
 ### Modelo de riqueza (q0)
 
-```{r}
+Riqueza de especies
+
+```{r modelo qD0, echo=FALSE, message=FALSE, warning=FALSE}
 
 div_mod <- read.csv("Div.mod.csv", sep=",", header = T)
 
 # Modelos qD0
 
-summary(m0_qD0 <- glm(qD_0 ~ 1, data = div_mod, family = "poisson")) 
-summary(m1_qD0 <- glm(qD_0 ~ Integridad, data = div_mod,  family = "poisson"))
-summary(m2_qD0 <- glm(qD_0 ~ X250_m, data = div_mod,  family = "poisson"))
-summary(m3_qD0 <- glm(qD_0 ~ X1_km, data = div_mod,  family = "poisson"))
+m0_qD0 <- glm(qD_0 ~ 1, data = div_mod, family = "poisson")
+m1_qD0 <- glm(qD_0 ~ Integridad, data = div_mod,  family = "poisson")
+m2_qD0 <- glm(qD_0 ~ X250_m, data = div_mod,  family = "poisson")
+m3_qD0 <- glm(qD_0 ~ X1_km, data = div_mod,  family = "poisson")
 
 cand_q0 <- list(m0_qD0, m1_qD0, m2_qD0, m3_qD0)
 names_q0 <- c("Nulo",
@@ -204,19 +207,25 @@ AICc_q0 <- aictab(cand_q0,
                   second.ord = T,
                   sort = T)
 
-q0_predict <- ggpredict(m1_qD0, terms = "Integridad")
-q0m2_predict <- ggpredict(m2_qD0, terms = "X250_m")
-q0m3_predict <- ggpredict(m3_qD0, terms = "X1_km")
+knitr::kable(AICc_q0, digits = 2)
+```
 
-par_m0qD0 <- model_parameters(m0_qD0)
+```{r parametros qD0, echo=FALSE, warning=FALSE}
+#par_m0qD0 <- model_parameters(m0_qD0)
 par_m1qD0 <- model_parameters(m1_qD0)
-par_m2qD0 <- model_parameters(m2_qD0)
-par_m3qD0 <- model_parameters(m3_qD0)
+#par_m2qD0 <- model_parameters(m2_qD0)
+#par_m3qD0 <- model_parameters(m3_qD0)
+
+par_m1qD0
 ```
 
 #### Gráfico modelo qD0
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+q0_predict <- ggpredict(m1_qD0, terms = "Integridad")
+#q0m2_predict <- ggpredict(m2_qD0, terms = "X250_m")
+#q0m3_predict <- ggpredict(m3_qD0, terms = "X1_km")
 qD0Plot <- ggplot(q0_predict, aes(x= as.factor(x), y=predicted, colour=as.factor(x)))+
   geom_point(size=6)+
   geom_errorbar(aes(ymin= conf.low, ymax= conf.high),
@@ -239,14 +248,15 @@ qD0Plot
 
 ```
 
-
 ### Modelo de especies igualmente abundantes (q1)
 
-```{r}
-summary(m0_qD1 <- lm(qD_1 ~ 1, data = div_mod)) 
-summary(m1_qD1 <- lm(qD_1 ~ Integridad, data = div_mod))
-summary(m2_qD1 <- lm(qD_1 ~ X250_m, data = div_mod))
-summary(m3_qD1 <- lm(qD_1 ~ X1_km, data = div_mod))
+Especies igualmente abundantes
+
+```{r modelo qD1, echo=FALSE, warning=FALSE}
+m0_qD1 <- lm(qD_1 ~ 1, data = div_mod) 
+m1_qD1 <- lm(qD_1 ~ Integridad, data = div_mod)
+m2_qD1 <- lm(qD_1 ~ X250_m, data = div_mod)
+m3_qD1 <- lm(qD_1 ~ X1_km, data = div_mod)
 
 cand_q1 <- list(m0_qD1, m1_qD1, m2_qD1, m3_qD1)
 names_q1 <- c("Nulo",
@@ -259,20 +269,28 @@ AICc_q1 <- aictab(cand_q1,
                   second.ord = T,
                   sort = T)
 
-q1_predict <- ggpredict(m1_qD1, terms = "Integridad")
-q1m2_predict <- ggpredict(m2_qD1, terms = "X250_m")
-q1m3_predict <- ggpredict(m3_qD1, terms = "X1_km")
 
-par_m0qD1 <- model_parameters(m0_qD1)
-par_m1qD1 <- model_parameters(m1_qD1)
-par_m2qD1 <- model_parameters(m2_qD1)
-par_m3qD1 <- model_parameters(m3_qD1)
+#q1m2_predict <- ggpredict(m2_qD1, terms = "X250_m")
+#q1m3_predict <- ggpredict(m3_qD1, terms = "X1_km")
+
+knitr::kable(AICc_q1, digits = 2)
 
 ```
 
-```{r gráfico qD1}
+```{r parametros qD1, echo=FALSE, message=FALSE, warning=FALSE}
+#par_m0qD1 <- model_parameters(m0_qD1)
+par_m1qD1 <- model_parameters(m1_qD1)
+#par_m2qD1 <- model_parameters(m2_qD1)
+#par_m3qD1 <- model_parameters(m3_qD1)
 
-qD1Plot <- ggplot(q1_predict, aes(x= as.factor(x), y=predicted, colour=x))+
+par_m1qD1
+```
+
+```{r gráfico qD1, echo=FALSE, message=FALSE, warning=FALSE}
+
+q1_predict <- ggpredict(m1_qD1, terms = "Integridad")
+
+qD1Plot <- ggplot(q1_predict, aes(x= as.factor(x), y=predicted, color= as.factor(x)))+
   geom_point(size=3)+
   geom_errorbar(aes(ymin= conf.low, ymax= conf.high),
                 width= 0.11,
@@ -287,18 +305,19 @@ qD1Plot <- ggplot(q1_predict, aes(x= as.factor(x), y=predicted, colour=x))+
         plot.subtitle = element_text(size = 16),
         legend.text = element_text(size = 16),
         legend.position = "none")+
-  scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.6)
+  scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.7)
+
+qD1Plot
 
 ```
 
-
 ### Modelo de especies dominantes (q2)
 
-```{r modelo qD2}
-summary(m0_qD2 <- lm(qD_2 ~ 1, data = div_mod)) 
-summary(m1_qD2 <- lm(qD_2 ~ Integridad, data = div_mod))
-summary(m2_qD2 <- lm(qD_2 ~ X250_m, data = div_mod))
-summary(m3_qD2 <- lm(qD_2 ~ X1_km, data = div_mod))
+```{r modelo qD2, echo=FALSE, message=FALSE, warning=FALSE}
+m0_qD2 <- lm(qD_2 ~ 1, data = div_mod) 
+m1_qD2 <- lm(qD_2 ~ Integridad, data = div_mod)
+m2_qD2 <- lm(qD_2 ~ X250_m, data = div_mod)
+m3_qD2 <- lm(qD_2 ~ X1_km, data = div_mod)
 
 cand_q2 <- list(m0_qD2, m1_qD2, m2_qD2, m3_qD2)
 names_q2 <- c("Nulo",
@@ -311,20 +330,25 @@ AICc_q2 <- aictab(cand_q2,
                   second.ord = T,
                   sort = T)
 
-q2_predict <- ggpredict(m1_qD2, terms = "Integridad")
-q2m2_predict <- ggpredict(m2_qD2, terms = "X250_m")
-q2m3_predict <- ggpredict(m3_qD2, terms = "X1_km")
 
-par_m0qD2 <- model_parameters(m0_qD2)
-par_m1qD2 <- model_parameters(m1_qD2)
-par_m2qD2 <- model_parameters(m2_qD2)
-par_m3qD2 <- model_parameters(m3_qD2)
-
+knitr::kable(AICc_q2, digits = 2)
 ```
 
-```{r gráfico qD2}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#par_m0qD2 <- model_parameters(m0_qD2)
+par_m1qD2 <- model_parameters(m1_qD2)
+#par_m2qD2 <- model_parameters(m2_qD2)
+#par_m3qD2 <- model_parameters(m3_qD2)
+par_m1qD2
+```
 
-qD2Plot <- ggplot(q2_predict, aes(x= as.factor(x), y=predicted, colour=x))+
+```{r gráfico qD2, echo=FALSE, message=FALSE, warning=FALSE}
+
+q2_predict <- ggpredict(m1_qD2, terms = "Integridad")
+#q2m2_predict <- ggpredict(m2_qD2, terms = "X250_m")
+#q2m3_predict <- ggpredict(m3_qD2, terms = "X1_km")
+
+qD2Plot <- ggplot(q2_predict, aes(x= as.factor(x), y=predicted, colour=as.factor(x)))+
   geom_point(size=3)+
   geom_errorbar(aes(ymin= conf.low, ymax= conf.high),
                 width= 0.11,
@@ -339,37 +363,41 @@ qD2Plot <- ggplot(q2_predict, aes(x= as.factor(x), y=predicted, colour=x))+
         legend.position = "none")+
   scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.6)
 
-
-```
-
-
-### Gráfico conjunto
-
-```{r gráfico qD0, qD1, qD2}
-modQsPlot <- qD0Plot + qD1Plot + qD2Plot
+qD2Plot
 ```
 
 ### Bondad de ajuste de los modelos
 
+#### Test de glm qD0
 
-```{r ajuste qD0}
+```{r ajuste qD0, echo=FALSE, message=FALSE, warning=FALSE}
 testDispersion(m1_qD0)
+
+```
+
+```{r echo=FALSE}
 check_overdispersion(m1_qD0)
-
 ```
 
-```{r ajuste qD1}
+#### Test lm qD1
+
+```{r ajuste qD1, echo=FALSE, message=FALSE, warning=FALSE, fig.height=6, fig.width= 7}
 check_model(m1_qD1, check = c("qq","linearity", "normality"))
-check_normality(m1_qD1)
-plot(check_normality(m1_qD1), type= "qq")
+
+
 ```
 
-```{r ajuste qD2}
-windows()
-check_model(m1_qD2)
-check_normality(m1_qD2)
-plot(check_normality(m1_qD2), type= "qq")
+#### Test lm qD2
+
+```{r ajuste qD2, echo=FALSE, message=FALSE, warning=FALSE, fig.height=6, fig.width= 7}
+
+check_model(m1_qD2, check = c("qq","linearity", "normality"))
+
 ```
+
+# Bibliografía
+
+[@avenant2011; @andreasen2001; @bogoni2020; @bradford1998; @carignan2002; @dirzo2014; @culot2013; @lacher2019; @bengtsson1998; @lacher2019a; @equihua2014; @horváth2001; @morales-díaz2019; @müller2000]
 
 ## Adicional {.appendix}
 
