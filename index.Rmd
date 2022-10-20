@@ -397,7 +397,7 @@ check_model(m1_qD2, check = c("qq","linearity", "normality"))
 
 # Bibliografía
 
-[@avenant2011; @andreasen2001; @bogoni2020; @bradford1998; @carignan2002; @dirzo2014; @culot2013; @lacher2019; @bengtsson1998; @lacher2019a; @equihua2014; @horváth2001; @morales-díaz2019; @müller2000\]\[@cultid-medina2019; @cultid-medina2016]
+[@avenant2011; @andreasen2001; @bogoni2020; @bradford1998; @carignan2002; @dirzo2014; @culot2013; @lacher2019; @bengtsson1998; @lacher2019a; @equihua2014; @horváth2001; @morales-díaz2019; @müller2000; @cultid-medina2019; @cultid-medina2016]
 
 ## Adicional {.appendix}
 
