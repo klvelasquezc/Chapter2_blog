@@ -8,8 +8,10 @@ navbar:
   logo:
     image: img/dipo1.png
   right:
+    - icon: fab fa-twitter
+      href: https://twitter.com/Kalorev
     - icon: fab fa-github
-      href: 
+      href: https://github.com/klvelasquezc
     
 output:
   distill::distill_article:

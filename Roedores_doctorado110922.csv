@@ -1,0 +1,471 @@
+Id,Modulo,Nodo,Punto,Especie,Genero,Epiteto,Sexo,Edad,Est Reprod,LP,LO,LCO,LCU,LT,LV,Peso (g),Fecha,Obs
+1,1,65,A15,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TE,18.5,16.6,102,90,192,,22,10/10/2021,
+2,1,65,A20,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.2,19.6,106,95,201,,28.7,10/10/2021,
+2,1,65,A19,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.2,19.6,106,95,201,,28.7,10/11/2021,Recaptura
+3,1,65,A20,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,20.4,13.9,151,99,250,,28.84,10/11/2021,
+4,1,65,C20,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,18.8,16.2,110,73,183,,,10/11/2021,
+3,1,65,A19,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,10/12/2021,Recaptura
+1,1,65,A14,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,10/12/2021,Recaptura
+1,1,66,A10,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.1,17.9,111,80,191,,23,11/12/2021,
+2,1,66,A12,Liomys irroratus,Liomys ,irroratus,H,Ad,Preñada,29.7,15.6,123,101,224,,62,11/12/2021,
+3,1,66,B7,Liomys irroratus,Liomys ,irroratus,H,Ad,MD,30,11.9,121,111,232,,58,11/12/2021,
+4,1,66,C8,Liomys irroratus,Liomys ,irroratus,H,Juv,SC,28.7,11.7,95,90,185,,39,11/12/2021,
+5,1,66,D5,Peromyscus sp.,,,H,Juv,SC,20,15.3,101,63,164,,21,11/12/2021,
+6,1,66,D6,Peromyscus sp.,,,H,Ad,Preñada,20.8,18.5,112,85,197,,30,11/12/2021,
+7,1,66,D11,Peromyscus sp.,,,H,Ad,Preñada,20.5,18.5,103,75,178,,26,11/12/2021,
+8,1,66,A13,Peromyscus sp.,,,M,Juv,TI,20.8,15.5,90,55,145,,25,11/12/2021,
+9,1,66,A5,Liomys irroratus,Liomys ,irroratus,H,Ad,Preñada,29.2,15,132,90,222,,71,11/12/2021,
+10,1,66,A10,Peromyscus sp.,,,H,Ad,Preñada,20.6,16.9,108,66,174,,38,11/13/2021,
+11,1,66,B1,Sigmodon hispidus,Sigmodon,hispidus,M,Ad,TE,29.3,14.3,105,95,200,,69,11/13/2021,
+12,1,66,B2,Sigmodon hispidus,Sigmodon,hispidus,H,Juv,SC,27.9,18.1,,,,,,11/13/2021,
+13,1,66,B3,Sigmodon hispidus,Sigmodon,hispidus,,,,,,,,,,100,11/13/2021,
+14,1,66,B4,Sigmodon hispidus,Sigmodon,hispidus,M,,,27.8,14.9,103,110,213,,90,11/13/2021,
+15,1,66,B9,Peromyscus sp.,,,M,Ad,TE,18.1,15.7,94,62,156,,21,11/13/2021,
+16,1,66,C3,Sigmodon hispidus,Sigmodon,hispidus,M,Ad,,29.8,17.9,94,112,206,,64,11/13/2021,
+17,1,66,C4,Sigmodon hispidus,Sigmodon,hispidus,H,Cría,SC,20,13.7,65,75,140,,34,11/13/2021,
+4,1,66,C7,Liomys irroratus,Liomys ,irroratus,,,,,,,,,,37,11/13/2021,Recaptura
+18,1,66,D2,Peromyscus sp.,Peromyscus,morfo 2,H,Cría,SC,17.9,12.3,95,43,138,,10,11/13/2021,
+19,1,66,D5,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.7,17.4,92,62,154,,28,11/13/2021,
+20,1,66,A4,Liomys irroratus,Liomys ,irroratus,H,Juv,,24.8,13.9,71,66,137,,24,11/14/2021,
+21,1,66,A7,Liomys irroratus,Liomys ,irroratus,H,Juv,SC,29,11.8,91,81,172,,29,11/14/2021,
+22,1,66,A12,Liomys irroratus,Liomys ,irroratus,,,,,,,,,,,11/14/2021,
+23,1,66,B1,Sigmodon hispidus,Sigmodon,hispidus,M,Ad,,30,13.3,125,135,260,,100,11/14/2021,
+24,1,66,B4,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,19.5,17.1,107,75,182,,26,11/14/2021,
+25,1,66,B5,Liomys irroratus,Liomys ,irroratus,M,Ad,TE,29.6,12.6,122,115,237,,69,11/14/2021,
+3,1,66,B6,Liomys irroratus,Liomys ,irroratus,H,Ad,Preñada,,,,,,,60,11/14/2021,Recaptura
+4,1,66,B7,Liomys irroratus,Liomys ,irroratus,H,,,,,,,,,41,11/14/2021,Recaptura
+26,1,66,B12,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.4,16,112,75,187,,22,11/14/2021,
+27,1,66,C5,Reithrodonthomys fulvescens,Reithrodontomys ,fulvescens,M,Juv,,18.9,13,105,70,175,,13,11/14/2021,
+28,1,66,C8,Peromyscus sp.,Peromyscus,morfo 2,M,Juv,TE,20.8,15.2,102,83,185,,22,11/14/2021,
+29,1,66,D2,Peromyscus sp.,,,M,Ad,TE,21,18.6,125,74,199,,31,11/14/2021,
+30,1,66,D3,Reithrodonthomys fulvescens,Reithrodontomys ,fulvescens,H,Juv,SC,18.9,11.8,101,55,156,,12,11/14/2021,
+31,1,66,D4,Liomys irroratus,Liomys ,irroratus,M,Ad,TE,29.1,15,123,115,238,,57,11/14/2021,
+32,1,66,D5,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,,21,17.1,91,55,146,,20,11/14/2021,
+33,1,66,D6,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,20.5,17.3,106,78,184,,25,11/14/2021,
+34,1,66,D7,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.6,17.1,105,81,186,,23,11/14/2021,
+1,1,63,A1,Peromyscus sp.,,,H,Ad,SA,21.4,18.8,110,70,180,,24,15/12/2021,Lactante
+2,1,63,A5,Peromyscus sp.,,,M,,SC,22,17,95,91,186,33,32,15/12/2021,
+3,1,63,A6,Peromyscus sp.,,,M,Juv,TI,18,12.6,90,52,142,25,10,15/12/2021,
+4,1,63,A8,Peromyscus sp.,,,H,,SA,19,18,92,84,176,30,26,15/12/2021,Lactante
+5,1,63,A10,Peromyscus sp.,,,M,,TI,19,13.2,150,67,217,24.8,17,15/12/2021,Foto celular Luz
+6,1,63,B1,Peromyscus sp.,,,M,Ad,TE,19,18.1,110,71,181,38,23,15/12/2021,
+7,1,63,B2,Peromyscus sp.,,,M,,TI,16,15.1,87,67,154,34,16,15/12/2021,Foto celular Luz
+8,1,63,B9,Liomys irroratus,Liomys ,irroratus,M,Ad,TI,29,16.3,93,91,184,31,28,15/12/2021,Muerto 
+9,1,63,C3,Liomys irroratus,Liomys ,irroratus,H,Ad,TI,27,15.3,93,80,173,23,29,15/12/2021,
+10,1,63,C7,Peromyscus sp.,,,M,Juv,TI,16,16.5,95,64,159,23,15,15/12/2021,
+11,1,63,C8,Peromyscus sp.,,,H,Juv,SC,19,14.6,95,62,157,27,16,15/12/2021,Marcado en cola
+12,1,63,C13,Peromyscus sp.,,,M,Ad,TE,19,14,104,71,175,27,21,15/12/2021,
+13,1,63,C17,Peromyscus sp.,,,M,Juv,TE,18,16,96,77,173,36,22,15/12/2021,
+14,1,63,D12,Liomys irroratus,Liomys ,irroratus,H,Ad,SC,27,11,95,90,185,32,30,15/12/2021,
+15,1,63,D13,Peromyscus sp.,,,M,Ad,TE,19,16.5,98,90,188,30,27,15/12/2021,
+16,1,63,A1,Peromyscus sp.,,,H,Ad,SA,19,17.1,101,73,174,,28,16/12/2021,"Lactante, marcado en cola"
+17,1,63,A1,Peromyscus sp.,,,M,Juv,TI,18,15.2,90,66,156,,14,16/12/2021,Marcado en cola
+18,1,63,A6,Liomys irroratus,Liomys ,irroratus,M,Ad,TE,32,14,130,127,257,,58,16/12/2021,Marcado en cola
+2,1,63,B9,Peromyscus sp.,,,,,,,,,,0,,,16/12/2021,Recaptura
+19,1,63,C4,Peromyscus sp.,,,M,Ad,TE,20,16,91,70,161,,20,16/12/2021,Marcado en cola
+20,1,63,C6,Sigmodon hispidus,Sigmodon ,hispidus,M,,TI,26,18,94,125,219,,89,16/12/2021,
+21,1,63,C12,Criptotys parva,Criptotys ,parva,,,,11.5,,20.4,52.3,72.7,,4,16/12/2021,
+22,1,63,D9,Peromyscus sp.,,,M,Ad,TE,19,14,94,95,189,,33,16/12/2021,Marcado en cola
+23,1,63,A6,Sigmodon hispidus,Sigmodon ,hispidus,H,Ad,SA,26.3,17.8,105.1,120,225.1,,600?,16/12/2021,
+24,1,63,A8,Peromyscus sp.,,,M,Juv,TI,19,17,98,74,172,,26,16/12/2021,
+25,1,63,A9,Peromyscus sp.,,,H,Ad,SA,21,19.1,101,83,184,,36,16/12/2021,Lactante
+10,1,63,C7,Peromyscus sp.,,,,,,,,,,,,,16/12/2021,Recaptura
+9,1,63,C5,Liomys irroratus,Liomys ,irroratus,,,,,,,,,,,16/12/2021,Recaptura
+11,1,63,C9,Peromyscus sp.,,,,,,,,,,,,,16/12/2021,"Recaptura, Marcado en cola"
+12,1,63,C11,Peromyscus sp.,,,,,,,,,,,,,16/12/2021,Recaptura
+4,1,63,C14,Peromyscus sp.,,,,,,,,,,,,,16/12/2021,Recaptura
+,1,63,C13,Sigmodon hispidus,Sigmodon ,hispidus,,,,,,,,,,,16/12/2021,Escapó
+26,1,63,A10,Peromyscus sp.,,,H,SC,Juv,17,14.7,80,62,142,,20,17/12/2021,
+27,1,63,B1,Peromyscus sp.,,,M,TI,Juv,19,15.6,83,63,146,,22,17/12/2021,
+28,1,63,B9,Peromyscus sp.,,,M,TI,Juv,17,10.3,95,53,148,,20,17/12/2021,
+29,1,63,C4,Sigmodon hispidus,Sigmodon ,hispidus,H,SC,Ad,26,15.5,101,125,226,,>100,17/12/2021,
+30,1,63,C5,Sigmodon hispidus,Sigmodon ,hispidus,M,TE,Ad,27,17.9,107,150,257,,>100,17/12/2021,
+31,1,63,C6,Sigmodon hispidus,Sigmodon ,hispidus,M,TE,Ad,30,17.1,117,130,247,,>100,17/12/2021,
+32,1,63,C7,Sigmodon hispidus,Sigmodon ,hispidus,M,TI,Juv,29,14.2,105,120,225,,89,17/12/2021,
+33,1,63,C8,Peromyscus sp.,,,M,TI,Juv,16,13.5,94,50,144,,20,17/12/2021,
+34,1,63,C10,Peromyscus sp.,,,M,TI,Juv,15,10,105,70,175,,24,17/12/2021,
+35,1,63,C15,Peromyscus sp.,,,M,TE,Ad,19,17.6,104,84,188,,33,17/12/2021,
+36,1,63,C13,Peromyscus sp.,,,M,TE,Juv,20,19.3,97,77,174,,28,17/12/2021,
+37,1,63,D8,Peromyscus sp.,,,M,TI,Juv,17,14.9,107,70,177,,25,17/12/2021,
+38,1,63,D9,Liomys irroratus,Liomys ,irroratus,H,SA,Ad,24,15.3,120,102,222,,62,17/12/2021,Preñada
+39,1,63,D10,Peromyscus sp.,,,H,SA,Ad,18,17.4,100,77,177,,35,17/12/2021,Preñada
+40,1,63,D12,Peromyscus sp.,,,H,SC,Juv,17,10,91,47,138,,18,17/12/2021,
+16,1,63,A1,Peromyscus sp.,,,,,,,,,,0,,,17/12/2021,Recaptura
+1,1,63,C2,Peromyscus sp.,,,,,,,,,,0,,,17/12/2021,Recaptura
+11,1,63,C9,Peromyscus sp.,,,,,,,,,,0,,,17/12/2021,Recaptura
+2,1,63,C12,Peromyscus sp.,,,,,,,,,,0,,,17/12/2021,Recaptura
+13,1,63,C17,Peromyscus sp.,,,,,,,,,,0,,,17/12/2021,Recaptura
+22,1,63,D11,Peromyscus sp.,,,,,,,,,,0,,,17/12/2021,Recaptura
+14,1,63,D13,Liomys irroratus,Liomys ,irroratus,,,,,,,,0,,,17/12/2021,Recaptura
+1,0,57,A6,Peromyscus sp.,,,H,SA,Ad,21.3,16,89,79,168,,30,22/12/2021,
+2,0,57,D2,Peromyscus sp.,,,H,SA,Ad,20,15.2,100,93,193,,34,22/12/2021,
+3,0,57,C6,Peromyscus sp.,,,H,SA,Ad,19,20,90,76,166,,24,23/12/2021,
+1,1,64,B2,Liomys irroratus,Liomys ,irroratus,M,Juv,TI,29.5,15.8,122,100,222,,37,2/17/2022,Presencia de ácaros rojos
+2,1,64,B3,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,22.2,19.2,90,80,170,,10,2/17/2022,"Morfo gris, sin parasitos"
+3,1,64,B4,Peromyscus sp.,,morfo 1,H,Juv,SC,20.4,16.1,91,74,165,,8,2/17/2022,"Pelaje gris en el dorso, vientre base oscura punta blanca. Sin parasitos"
+4,1,64,B6,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,M,SAd,,17.1,10.7,97,52,149,,9,2/17/2022,"Faltaron fotos, y pelo. Sin parásitos. Escapó"
+5,1,64,B8,Peromyscus sp.,,,M,Juv,TI,19.1,16.5,72,75,147,,12,2/17/2022,
+6,1,64,B9,Peromyscus sp.,,,M,Juv,TI,20.7,15.4,70,70,140,,14,2/17/2022,
+7,1,64,B10 ,Liomys irroratus,Liomys ,irroratus,H,Ad,SA,30.4,15.1,110,100,210,,34,2/17/2022,"Mamas no desarrolladas, muesca en oreja izquierda"
+8,1,64,C1,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,20.5,16,98,90,188,,28,2/17/2022,"Morfo café amarillo, mamas desarrolladas"
+9,1,64,C2,Liomys irroratus,Liomys ,irroratus,H,Juv,SC,30.5,15,130,90,220,,39,2/17/2022,
+10,1,64,C3,Liomys irroratus,Liomys ,irroratus,M,Ad,TE,31.2,14.4,127,120,247,,53,2/17/2022,Falto foto
+11,1,64,C4,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,,21,18.4,95,75,170,,23,2/17/2022,"Morfo café amarillo, Foto No 3106-3109"
+12,1,64,C5,Peromyscus sp.,,morfo 1,M,Cría,TI,18.1,15,71,65,136,,13,2/17/2022,"Revisar Baiomys, morfo gris, Sin parasitos. Tener en cuenta cambio coloración en crías"
+13,1,64,C8,Peromyscus sp.,,morfo 1,M,SAd,,20.2,17,91,80,171,,27,2/17/2022,Morfo amarillo-café. Sin parasitos
+14,1,64,D1,Peromyscus sp.,,morfo 1,M,Juv,TI,20.6,14.4,,0,,32.7,16,2/17/2022,"Morfo gris, cola no bicoloreada. Base oscura y punta blanca"
+15,1,64,D4,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,H,Ad,SA,19.1,9.5,95,47,142,19.1,12,2/17/2022,Sin parasitos
+16,1,64,D5?,Peromyscus sp.,Peromyscus,morfo 1,M,,,20.3,15.6,84,75,159,32,22,2/17/2022,Morfo café-amarillo.Cola bicoloreada
+17,1,64,D6,Liomys irroratus,Liomys ,irroratus,H,Ad,MD,32.4,15.8,123,101,224,33.6,43,2/17/2022,Hembra de gran tamaño. Presencia de ácaros rojos
+18,1,64,D7,Liomys irroratus,Liomys ,irroratus,H,Ad,SA,30,14.7,128,98,226,33.5,41,2/17/2022,
+19,1,64,E3,Peromyscus sp.,,morfo 1,H,Juv,SC,19.5,17.3,87,67,154,29.4,19,2/17/2022,Morfo café-gris. Sin parasitos
+20,1,64,E5,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,H,Juv,SC,18.8,11.9,94,52,146,20.2,15,2/17/2022,Sin parasitos
+21,1,64,E6,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,H,,,18.7,10,98,54,152,24.6,12,2/17/2022,
+22,1,64,E7,Liomys irroratus,Liomys ,irroratus,H,Ad,SC,30.2,15.9,125,90,215,32.7,44,2/17/2022,
+24,1,64,A5,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,M,Juv,TE,17.5,10.9,79,55,134,24.5,8,2/18/2022,Sin parasitos
+25,1,64,A6,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,21.6,18.2,100,82,182,41.8,24,2/18/2022,"Morfo café-amarillo. Preñada, sin parasitos."
+1,1,64,,Liomys irroratus,Liomys ,irroratus,,,,,,,0,,,,2/18/2022,Recaptura
+5,1,64,,Peromyscus sp.,,,,,,,,,0,,,,2/18/2022,Recaptura
+16,1,64,,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,2/18/2022,Recaptura
+19,1,64,,Peromyscus sp.,,,,,,,,,0,,,,2/18/2022,Recaptura
+6,1,64,,Peromyscus sp.,,,,,,,,,0,,,,2/18/2022,Recaptura
+,1,64,B4,,,,,,,,,,0,,,,,
+26,1,64,A10,Peromyscus sp.,,,H,Juv,SC,19.3,17.8,75,65,140,35.1,11,2/18/2022,Sin parasitos
+27,1,64,A7,Liomys irroratus,Liomys ,irroratus,H,Ad,MD,29.5,16.2,142,98,240,33,39,2/18/2022,Sin parasitos
+28,1,64,B5,Peromyscus sp.,,,H,Juv,SC,20,14.7,76,70,146,34.1,13,2/18/2022,Sin parasitos
+29,1,64,D1,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.5,15.7,105,70,175,35.3,17,2/18/2022,Morfo café-amarillo. Sin parasitos
+30,1,64,D4,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,H,Juv,SC,18.5,11.3,96,60,156,29.4,9,2/18/2022,Sin parasitos. Sin fotos
+31,1,64,D8,Peromyscus sp.,,,H,Ad,MD,20.1,15.8,92,83,175,36.8,14,2/18/2022,Sin parasitos
+10,1,64,,Liomys irroratus,Liomys ,irroratus,H,,TE,,,,0,,,49,2/18/2022,
+32,1,64,C4,Peromyscus sp.,,morfo 1,H,,,20.5,16.9,84,80,164,33.5,18,2/18/2022,Morfo gris 
+33,1,64,C5,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,19.5,16.6,93,90,183,39.1,22,2/18/2022,Morfo café-amarillo
+34,1,64,E5,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,20.3,16.6,86,90,176,34.2,26,2/18/2022,Morfo café amarillo
+35,1,64,E9,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,18.6,15.6,89,80,169,31.7,28,2/18/2022,Morfo café-amarillo. Preñada
+,1,64,C6,Peromyscus sp.,,,H,Ad,,,,,0,,,,,Se voló
+36,1,64,A2,Liomys irroratus,Liomys ,irroratus,H,Ad,SA,28.3,14.1,114,89,203,40.9,35,2/19/2022,Sin parasitos
+37,1,64,A3,Peromyscus sp.,Peromyscus,morfo 1,M,Cría,TI,19.3,12.5,57,50,107,29,8,2/19/2022,"Morfo gris, sin parasitos. Tener en cuenta cambios en coloracón en crías"
+38,1,64,A5,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.7,16.8,93,75,168,39.5,18,2/19/2022,Morfo café-amarillo
+39,1,64,A8,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,18.9,16.9,94,55,149,39.6,18,2/19/2022,Morfo café-amarillo
+40,1,64,A9,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.8,17.2,95,60,155,41,18,2/19/2022,Presenta muesca en oreja derecha. Morfo café-amarillo. Sin parasito
+41,1,64,A10,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,,19.9,14.7,98,52,150,35.8,11,2/19/2022,"Morfo gris, con flanco amarillo"
+42,1,64,B3,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.8,15.6,86,79,165,36.2,21,2/19/2022,"Morfo gris, flanco con coloración amarilla"
+43,1,64,B5,Liomys irroratus,,,M?,,,28.8,13.7,120,85,205,35.3,40,2/19/2022,Rectificar sexo
+44,1,64,B7,Peromyscus sp.,,,M,Juv,TI,18.8,14.7,81,60,141,30.5,19,2/19/2022,Sin parasitos
+45,1,64,B10,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,18.5,17.5,15.17,75,90.17,37.8,27,2/19/2022,Morfo amarillo café. Muesca en oreja derecha
+46,1,64,C?,Peromyscus sp.,,morfo 1,H,Juv,SC,20,15.4,81,80,161,42,24,2/19/2022,Morfo gris 
+47,1,64,C4,??,,,H,Ad,MD,19,15.2,84,63,147,33.4,31,2/19/2022,Lactando
+48,1,64,C9,Peromyscus sp.,,,H,Ad,Preñada,19.9,15.5,90,72,162,39.3,35,2/19/2022,
+—,1,64,C10,—,,,,,,,,,,,,,2/19/2022,Recaptura
+49,1,64,D6,Liomys irroratus,Liomys ,irroratus,M,Juv,,28.6,13.5,95,66,161,32.8,20,2/19/2022,Revisar sexado
+50,1,64,E2,Liomys irroratus,Liomys ,irroratus,M,Juv,,28.9,13.2,106,77,183,32.2,37,2/19/2022,
+51,1,64,E5,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,H,Juv,SC,16,10.6,81,56,137,27.1,10,2/19/2022,
+52,1,64,E8,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,18.8,13.2,94,70,164,37.5,21,2/19/2022,Morfo café-amarillo. Preñada
+53,1,64,E10,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,18.9,18.1,110,75,185,38.9,27,2/19/2022,"Individuo mayor. Morfo café-amarillo, Dorso gris, cola bicoloreada, cola con pelo en punta. Punta del pelo amarillo-crema. Cola lastimada"
+54,0,58,A4,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21,16.3,90,68,158,35.3,20,2/22/2022,Morfo gris con flanco amarillo
+55,0,58,C6,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21.5,17.4,93,90,183,43.8,31,2/22/2022,Morfo café-amarillo. Cola mocha
+56,0,58,D2,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,15.4,91,70,161,32.7,23,2/22/2022,"Morfo gris, flanco amarillo"
+57,0,58,D1,Peromyscus sp.,,,H,Juv,SC,18.9,15.1,95,70,165,41,23,2/23/2022,Morfo café
+56,0,58,D2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,2/23/2022,Recaptura
+58,0,58,D9,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.8,16.1,100,67,167,35.2,22,2/23/2022,Morfo café-amarillo
+59,0,58,D12,??,,,H,Ad,Preñada,19.2,16.8,115,72,187,39.4,28,2/23/2022,
+54,0,58,B3,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,2/23/2022,Recaptura
+60,0,58,B7,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.9,14.9,70,76,146,36.4,28,2/23/2022,"Flanco amarillo, pelaje con tonos amarillo oscuro y naranja. Cola cortada, dos muescas en oreja derecha. Sin parasitos"
+61,0,58,B9,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,Preñada,21.5,14.5,106,80,186,34.8,30,2/23/2022,Morfo amarillo-naranja
+62,0,58,B12,Peromyscus sp.,,morfo 1,H,Cría,,17.9,11.5,66,58,124,28.1,12,2/23/2022,Morfo gris
+54,0,58,B3,Peromyscus sp.,,,,,,,,,0,,,,2/24/2022,
+63,0,58,B5,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,20.7,15.6,104,84,188,39.2,37,2/24/2022,"Mamas desarrolladas. Morfo amarillo, presencia de pulgas"
+64,0,58,B7,Peromyscus sp.,,morfo 1,H,Juv,SC,20.9,16.1,89,71,160,35.9,18,2/24/2022,Morfo gris 
+65,0,58,B12,Peromyscus sp.,,morfo 1,M,Juv,TI,20.1,15.1,70,66,136,35.1,13,2/24/2022,Morfo gris
+61,0,58,C5,Peromyscus sp.,,,,,,,,,0,,,,2/24/2022,Recaptura
+66,0,58,D1,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,20.4,15.2,107,81,188,40,30,2/24/2022,Morfo naranja
+67,0,58,D2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21.3,15.5,93,70,163,32.2,24,2/24/2022,Morfo gris con flanco amarillo
+68,0,58,D5,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.6,13.3,87,66,153,32.4,17,2/24/2022,Morfo gris con flanco amarillo
+59,0,58,D7,Peromyscus sp.,,,,,,,,,0,,,,2/24/2022,Recaptura
+69,0,61,,Peromyscus sp.,,,H,Ad,SA,20.3,16.1,90,80.3,170.3,,30,3/23/2022,ESTA EN CELULAR 
+70,0,61,B4,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,21.9,18.2,100.2,85,185.2,39.4,25,3/23/2022,"Morfo amarillo, mamas desarrolladas. Vientre con base de pelo gris, punta crema, laterales naranjas, cola parcialmente bicoloreada"
+71,0,61,B9,Peromyscus sp.,Peromyscus,morfo 1,M,Cría,,19.9,14.6,83,67,150,36,14,3/23/2022,Morfo gris
+72,0,61,B4,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,21.7,21.4,95,76,171,31.9,12,3/24/2022,"Morfo gris, flancos amarillos"
+NA,0,61,B2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,19,3/24/2022,"Morfo gris, flancos amarillos (escapó)"
+70,0,61,C4,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,3/24/2022,Recaptura
+73,0,61,A1,Liomys irroratus,Liomys ,irroratus,M,Ad,TE,19.4,15.1,48,98,146,40,56,3/24/2022,Cola mocha
+74,0,61,A2,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.5,16.5,92,62,154,37.7,21,3/24/2022,Morfo café-amarillo
+75,0,61,D2,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,20.7,16.7,91,79,170,38.7,25,3/24/2022,Morfo amarillo
+69,0,61,A2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,38,3/25/2022,"Recaptura, morfo café-amarillo"
+76,0,61,A4,Liomys irroratus,Liomys ,irroratus,H,Ad,SA,28.1,14.8,121,94,215,,42,3/25/2022,Garrapatas rojas pequeñas en el pelaje
+77,0,61,B2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.2,15.6,90,85,175,33.3,17,3/25/2022,Morfo gris
+70,0,61,B4,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,3/25/2022,Recaptura
+78,0,61,D2, Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.3,15.2,42,82,124,37.8,25,3/25/2022,Morfo amarillo
+79,1,62,C6,Peromyscus sp.,Peromyscus,morfo 1,M,,,18.9,18.1,76,58,134,29.7,11,28/04/22,Morfo gris
+80,1,62,C1,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.1,15.1,94,70,164,38.7,20,28/04/22,"Sin parasitos, morfo gris, flancos amarillos"
+81,1,62,C2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,18.6,15.1,94,62,156,34.7,16,28/04/22,"Morfo gris con flancos amarillos, sin parasitos"
+82,1,62,C8,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.3,12.7,91,61,152,31.4,26,28/04/22,"Morfo gris, flancos amarillos, sin parasitos"
+83,1,62,C11,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,19.3,18.4,94,69,163,36.8,20,28/04/22,"Mamas desarrolladas, morfo café amarillo"
+84,1,62,C12,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.2,17.5,103,72,175,35,20,28/04/22,"Morfo café amarillo, sin parasitos"
+85,1,62,D2,Peromyscus sp.,Peromyscus,,M,Juv,TI,19.7,16.4,86,67,153,37.5,20,28/04/22,"Morfo gris con café, sin parasitos"
+86,1,62,D3,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.9,16.7,100,85,185,36.2,27,28/04/22,"Morfo café amarillo, sin parasitos"
+87,1,62,D5,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA;MD,20.3,14.1,100,82,182,29.6,24,28/04/22,"Mamas desarrolladas, morfo café amarillo, presencia de parasitos"
+88,1,62,B3,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.1,13.1,82,62,144,33.2,14,28/04/22,"Morfo gris amarillo, revisar SIN FOTO"
+89,1,62,B4,Peromyscus sp.,Peromyscus,morfo 3,H,Ad,MD,20.5,16.4,95,75,170,36.12,22,28/04/22,"Morfo café amarillo?, tonalidades marrón oscuro, revisar especie. Con parasitos"
+90,1,62,B7,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,18.9,14.4,91,57,148,31,13,28/04/22,"Morfo gris, sin parasitos (revisar cambio de coloración de juveniles a adultos)"
+91,1,62,A1,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.4,14.2,85,68,153,32.2,17,28/04/22,"Morfo gris, flanco amarillo sin parasito"
+92,1,62,A2,Liomys irroratus,Liomys ,irroratus,M,Ad,TI,30.2,12.7,125,117,242,34.5,44,28/04/22,"Faltó cortar cola, escapó"
+93,1,62,A3,Peromyscus sp.,Peromyscus,morfo 3,H,,,19.2,15.5,96,74,170,32.1,17,28/04/22,"Morfo amarillo café, presencia de tonalidades marrones, cola bicoloreada, sin parasitos"
+,1,62,,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,,,,0,,,,28/04/22,"Morfo amarillo, liberada por tener cría en la trampa"
+94,1,62,A9,Liomys irroratus,Liomys ,irroratus,H,Ad,,28.3,14.7,126,94,220,41.2,49,28/04/22,
+95,1,62,A10,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,17.7,17.6,106,74,180,34.9,22,28/04/22,"Morfo amarillo, patas y manos muy blancas, posible maniculatus"
+96,1,62,A11,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.1,15.9,92,67,159,32.1,17,28/04/22,"Morfo gris, flancos amarillos"
+,1,62,D1,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,,,,0,,,24,29/04/22,"Morfo amarillo café, muesca en oreja derecha. Escapó"
+97,1,62,D2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.8,11.7,92,72,164,37.1,19,29/04/22,"Morfo gris, manchas amarillas en los flancos, posible coloración en juveniles"
+98,1,62,D4,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,19.9,14.4,97,80,177,34.1,22,29/04/22,Morfo amarillo-café
+99,1,62,D9,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,18.9,13.8,110,65,175,37.3,19,29/04/22,Morfo amarillo café
+100,1,62,C2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,17.7,16.6,84,67,151,32.9,14,29/04/22,Morfo gris con flancos amarillos
+85,1,62,D3,Peromyscus sp.,,,,,,,,,0,,,,,Recaptura
+83,1,62,C11,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,,Recaptura
+91,1,62,A1,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,,Recaptura
+101,1,62,C3,Peromyscus sp.,Peromyscus,morfo 1,H,Cria,SC,20.2,14.6,80,61,141,27.5,11,29/04/22,Morfo gris
+102,1,62,C4,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.9,16.2,110,75,185,39.8,23,29/04/22,Morfo café amarillo
+103,1,62,C6,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19,15.7,110,68,178,38.6,17,29/04/22,"Morfo café amarillo, sin parasitos"
+104,1,62,C7,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.6,18.1,110,85,195,33.4,17,29/04/22,"Morfo café amarillo, sin parasitos"
+105,1,62,C8,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.7,16,100,75,175,39.2,20,29/04/22,"Morfo amarillo café, sin parasitos"
+106,1,62,C10,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.8,16.4,,0,,39.1,21,29/04/22,"Morfo amarillo café, sin parasitos, sin corte en cola por la longitud de esta"
+107,1,62,C13,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,17.4,110,85,195,39.6,19,29/04/22,Morfo amarillo café
+108,1,62,A12,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.6,16.1,105,65,170,36.8,17,29/04/22,"Morfo gris, flancos amarillos, sin parasitos"
+109,1,62,A13,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,MD,19.9,16.3,115,65,180,34.1,20,29/04/22,Morfo amarillo café
+110,1,62,B3,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20,15.6,105,75,180,37.3,16,29/04/22,"Morfo gris, flancos amarillos, parasito en oreja, sin corte de cola"
+111,1,62,B10,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.8,15.6,93,63,156,36.8,18,29/04/22,"Morfo gris, flancos amarillo"
+91,1,62,A1,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,30/04/22,Recaptura
+112,1,62,A7,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21.5,15.5,95,75,170,38.8,22,30/04/22,Morfo amarillo café
+90,1,62,A8,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,30/04/22,Recaptura
+113,1,62,A9,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,18.3,15,96,75,171,31.1,15,30/04/22,Morfo gris
+95,1,62,A10,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,30/04/22,Recaptura
+114,1,62,A12,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.7,15.3,120,77,197,38.7,20,30/04/22,Morfo amarillo café
+115,1,62,B10,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.6,14.7,80,65,145,32.9,14,30/04/22,Morfo gris flancos amarillos
+116,1,62,B4,Peromyscus sp.,Peromyscus,morfo 1,H,Cria,SC,19.6,14.2,70,65,135,32.4,10,30/04/22,Morfo gris
+117,1,62,B7,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,18.7,14.9,111,78,189,34.4,20,30/04/22,Morfo amarillo café
+118,1,62,B10,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.7,15.7,100,62,162,37.7,14,30/04/22,Morfo gris flancos amarillos
+119,1,62,B12,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.6,16.5,106,65,171,36.9,18,30/04/22,Morfo amarillo café
+80,1,62,C1,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,30/04/22,Recaptura
+86,1,62,C2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,30/04/22,Recaptura
+120,1,62,C7,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.3,17.2,95,67,162,36.2,15,30/04/22,Morfo gris flancos amarillos
+121,1,62,C8,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,18.8,16.3,92,65,157,38.1,14,30/04/22,"Morfo gris, flancos amarillos"
+,1,62,,,,,,,,,,,,0,,25,30/04/22,Escapó al revisarlo
+84,1,62,C12,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,30/04/22,Recaptura
+122,1,62,C13,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TI,19.6,17.9,112,70,182,37.9,18,30/04/22,Morfo amarillo café
+85,1,62,D3,Peromyscus sp.,,,,,,,,,,0,,,30/04/22,Recaptura
+98,1,62,D4,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,30/04/22,Recaptura
+85?,1,62,D5,,,,,,,,,,,0,,,30/04/22,Recaptura
+123,1,62,D?,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.6,17.3,81,58,139,32.8,13,30/04/22,Morfo gris
+124,0,61,A2,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,18.8,16.1,100,85,185,39.3,25,3/5/2022,Morfo amarillo café
+125,0,61,A3,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.3,14.6,93,66,159,35.7,20,3/5/2022,Morfo amarillo café
+126,0,61,A8,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,20.8,15.2,95,80,175,39.4,34,3/5/2022,Morfo amarillo café
+127,0,61,A13,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.9,15.4,90,79,169,37.6,22,3/5/2022,"Morfo amarillo café, no se corto el tejido de la cola"
+77,0,61,B5,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,3/5/2022,Recaptura
+70,0,61,B8,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,3/5/2022,Recaptura
+,0,61,B11,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,,,,0,,,29,3/5/2022,"Morfo amarillo, con tonalidades naranjas. Tonos naranjas en cachetes, cuello y flancos. La base del pelo en el vientre es oscura y la punta es colos crema/amarillo. Escapó"
+128,0,61,C2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.4,15.4,92,83,175,35.7,18,3/5/2022,"Morfo gris, flancos amarillos"
+75,0,61,C3,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,3/5/2022,Recaptura
+129,0,61,C5,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.9,14.8,95,77,172,34,19,3/5/2022,Morfo gris con flancos amarillos
+130,0,61,C6,Reitrodonthomys fulvescens,Reithrodontomys,fulvescens,H,Juv,SC,16.6,12,92,55,147,23.5,9,3/5/2022,
+131,0,61,C7,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,18.8,14.3,91,70,161,34.5,19,3/5/2022,Morfo gris amarillo
+132,0,61,C9,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.6,16.2,90,85,175,42,23,3/5/2022,Morfo amarillo café
+73,0,61,D4,Liomys irroratus,Liomys ,irroratus,,,,,,,0,,,,3/5/2022,"Recaptura, cola mocha, se cayó el arete pero por caracteres físicas se identificó"
+133,0,61,D5,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.4,16.5,94,95,189,41.3,24,3/5/2022,Morfo amarillo café
+134,0,61,A3,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,17.1,15.4,88,80,168,35,15,4/5/2022,"Morfo gris, flancos amarillos"
+129,0,61,A4,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,4/5/2022,Recaptura
+135,0,61,A5,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20,15.5,70,74,144,33,20,4/5/2022,Morfo amarillo café
+136,0,61,A6,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.7,15,96,74,170,38.8,24,4/5/2022,Morfo amarillo café. Flancos con tonalidades naranjas
+76,0,61,A7,Liomys irroratus,Liomys ,irroratus,,,,,,,0,,,,4/5/2022,Recaptura
+126,0,61,A8,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,0,,,,4/5/2022,Recaptura
+137,0,61,A9,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21.8,16.5,55,68,123,39.9,20,4/5/2022,"Morfo amarillo café. Agüjero en oreja derecha, zona izquierda. Sin muestra de pelo y tejido"
+138,0,61,A13,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Lactante,20.9,15.4,95,75,170,38.3,25,4/5/2022,"Morfo amarillo café, flancos naranjas. Dos pares de mamas"
+77,0,61,B5,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,4/5/2022,Recaptura
+139,0,61,B6,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,18.9,16,90,73,163,41,28,4/5/2022,"Morfo amarillo café, dos pares de mamas"
+140,0,61,B11,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Lactante,20.9,16.2,105,87,192,37.3,30,4/5/2022,"Morfo amarillo café, flancos naranjas, en laterales del rostro y cuello. Tres pares de mamas. Coloración naranja crema en el vientre, cola marcadamente bicoloreada"
+141,0,61,C2,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,22,15.2,92,82,174,35.8,25,4/5/2022,"Morfo amarillo café, oreja derecha tiene un agüjero"
+142,0,61,C10,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.1,14.2,90,65,155,30,18,4/5/2022,Morfo amarillo café
+143,0,61,D4,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,17,81,67,148,33,19,4/5/2022,"Morfo gris, flancos amarillos"
+144,0,61,D5,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21.5,15.3,106,82,188,37.3,26,4/5/2022,Morfo amarillo café
+146,0,61,D11,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,19.8,16.6,89,75,164,34.7,16,4/5/2022,"Morfo gris, flancos amarillos, revisar cambio de coloración en pelaje de juveniles"
+128,0,61,A5,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+136,0,61,A6,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+126,0,61,A8,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+138,0,61,A13,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+139,0,61,B6,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+70,0,61,B7,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+140,0,61,B12,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+141,0,61,C2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+75,0,61,C3,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,,,,5/5/2022,Recaptura
+147,0,61,C10,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,20.8,16.2,99,88,187,36,29,5/5/2022,"Morfo amarillo café, dos pares de mamas, almohadillas desarrolladas"
+148,0,61,D1,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Lactante,19.6,15.8,94,82,176,37.1,21,5/5/2022,"Morfo amarillo café, dos pares de mamas"
+73,0,61,D2,Liomys irroratus,Liomys ,irroratus,,,,,,,,0,,,5/5/2022,Cola mocha
+,0,61,D4,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,25,5/5/2022,"Morfo amarillo café, escapó"
+149,0,61,D5,Peromyscus sp.,Peromyscus,morfo 1,0,Ad,TE,21,15.3,95,75,170,34.7,24,5/5/2022,Morfo amarillo café
+144,0,61,D6,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,5/5/2022,
+150,0,61,D8,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.5,14.8,89,68,157,30,18,5/5/2022,"Morfo gris, flancos amarillos, posible juvenil, revisar cambios de pelaje de juv a Ad"
+151,0,61,D9,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19.6,18.4,95,85,180,39.8,20,5/5/2022,Morfo amarillo café
+152,1,65,A5,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,21.1,16.3,90,78,168,40,21,6/1/2022,Morfo café amarillo
+153,1,65,B1,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TI,20.7,15.7,107,80,187,36.1,24,6/1/2022,Morfo café amarillo
+154,1,65,B2,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,21.5,16.4,98,75,173,39.13,19,6/1/2022,Morfo café amarillo
+155,1,65,B4,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21.7,16,105,74,179,35.8,16,6/1/2022,"Morfo café amarillo, con presencia de flancos naranjas"
+156,1,65,B5,Reithrodontomys fulvescens,Reithrodontomys,fulvescens,M,Ad,TE,18.3,10.6,110,55,165,35.2,12,6/1/2022,
+157,1,65,B6,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SC,20.4,15.6,97,76,173,35.2,19,6/1/2022,Morfo café amarillo
+158,1,65,B11,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,Preñada,20.5,18.3,115,75,190,35.1,22,6/1/2022,Morfo amarillo café con flancos naranjas. Cola parcialmente coloreada. Muerto en campo
+159,1,65,B12,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TI,20.1,18.4,106,75,181,37.8,20,6/1/2022,Morfo café amarillo con flancos naranjas
+160,1,65,C2,Peromyscus sp.,Peromyscus,morfo 1,H,,,19.9,15.7,78,77,155,36.2,25,6/1/2022,"Cola mocha, morfo café amarillo"
+161,1,65,C6,Peromyscus sp.,Peromyscus,morfo 3,M,Ad,TI,21.8,15.9,95,80,175,37.8,20,6/1/2022,Coloración marrón oscura; vientre con base oscura y blanco/crema en punta; flancos ocre/naranja. Revisar maniculatus pero es muy oscuro. Cola marcadamente bicoloreada. Temporada reproductiva iniciando pues machos presentaban testiculos parcialmente escrotados
+162,1,65,C7,Peromyscus sp.,Peromyscus,morfo 3,M,Ad,TI,20.5,16.1,92,75,167,38.2,21,6/1/2022,"Coloración igual al ID 161. Cola rota; Cambio de coloración muy marcada entre dorso y vientre; Vientre crema, dorso marrón con tonalidades ocre/naranja"
+163,1,65,C8,Liomys irroratus,Liomys ,irroratus,H,Ad,,28.8,12.5,127,105,232,34,42,6/1/2022,
+164,1,65,D1,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.7,18,117,75,192,37.5,19,6/1/2022,Presenta perdida de visión en ojo izquierdo. Muesca en oreja izquierda. Morfo café amarillo
+165,1,65,D4,Peromyscus sp.,Peromyscus,morfo 3,M,Ad,TI,20.4,17.1,110,76,186,36.1,20,6/1/2022,"Coloración similar al ID 161, con tonos café / pardo"
+166,1,65,D6,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.3,17.9,100,69,169,33.9,18,6/1/2022,Morfo amarillo café. Presencia de pulgas
+167,1,65,D12,Liomys irroratus,Liomys ,irroratus,H,Ad,,30.9,13.2,132,115,247,32.8,44,6/1/2022,Revisar sexado. Presencia de garrapata
+160,1,65,A1,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/2/2022,Recaptura
+168,1,65,A6,Peromyscus sp.,Peromyscus,morfo 1,H,Sad,SC,20.4,16.7,102,60,162,32.6,17,6/2/2022,Morfo café amarillo
+169,1,65,A12,Liomys irroratus,Liomys ,irroratus,H,Ad,,27.7,11.6,131,102,233,39.8,56,6/2/2022,Revisar sexo; presencia de garrapatas
+154,1,65,B2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/2/2022,Recaptura
+170,1,65,B5,Sigmodon hispidus,Sigmodon,hispidus,H,Ad,MD,26.9,16.2,100,132,232,31.8,81,6/2/2022,
+157,1,65,B6,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/2/2022,Recaptura
+171,1,65,B7,Peromyscus sp.,Peromyscus,morfo 3,M,Juv,TI,21.3,17.5,95,82,177,36.2,22,6/2/2022,"Morfo café, como el ID 161, cola no bicoloreada. Testiculos parcialmente escrotados"
+172,1,65,B9,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,21.5,15.8,95,75,170,35.8,20,6/2/2022,Morfo café amarillo. Presencia de pulgas
+173,1,65,B11,Peromyscus sp.,Peromyscus,morfo 3,M,Ad,TE,19.4,16.6,100,72,172,34.9,21,6/2/2022,"Morfo café amarillo, coloración del pelo marrón como la del ID 161"
+174,1,65,C1,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21.2,17.3,105,73,178,36.2,22,6/2/2022,Morfo café amarillo
+175,1,65,C4,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,13.8,93,70,163,37.3,19,6/2/2022,Morfo café amarillo
+161,1,65,C5,Peromyscus sp.,Peromyscus,morfo 3,,,,,,,,0,,,6/2/2022,Recaptura
+163,1,65,C7,Liomys irroratus,Liomys ,irroratus,,,,,,,,0,,,6/2/2022,Recaptura
+176,1,65,C8,Peromyscus sp.,Peromyscus,morfo 3,H,Juv,SC,20.3,16.8,99,72,171,35.3,21,6/2/2022,"Morfo café amarillo, coloración marrón, como ID 161"
+NA,1,65,C9,Peromyscus sp.,,,,,,,,,,0,,,6/2/2022,Escapó
+177,1,65,C11,Peromyscus sp.,Peromyscus,morfo 3,M,Juv,TI,19.4,15.7,100,74,174,33.3,19,6/2/2022,"Morfo café marrón, como ID 161, coloración naranja en mejillas, cuello y flancos. Morfo muy similar al colectado en Estanzuela"
+178,1,65,C12,Peromyscus sp.,Peromyscus,morfo 2,H,Sad,SC,19.5,15.6,104,65,169,33.6,16,6/2/2022,"Morfo café amarillo, coloración naranja en cuello, mejillas y flancos. Cola bicoloreada. Presencia de pulgas"
+179,1,65,C13,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.7,16.9,112,77,189,35.6,23,6/2/2022,"Morfo café marrón, coloración como ID161"
+180,1,65,D2,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19.8,17.2,105,65,170,31.5,16,6/2/2022,Morfo café amarillo
+166,1,65,D4,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/2/2022,Recaptura
+181,1,65,D7,Peromyscus sp.,Peromyscus,morfo 3,H,Juv,SC,21.3,17.3,97,74,171,35.7,19,6/2/2022,"Morfo café marrón, coloración muy oscura, similar a Melanomys caliginosas; vientre de color crema en la punta y base oscura, cola bicoloreada. Presencia de pulgas"
+162,1,65,D9,Peromyscus sp.,Peromyscus,morfo 3,,,,,,,,0,,,6/2/2022,Recaptura
+182,1,65,D12,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,20.8,15.6,101,75,176,38.6,21,6/2/2022,"Morfo amarillo naranja como el capturado en Estanzuela, mejillas, cuello y flancos con coloración naranja. Vientre con coloración oscura en base y punta crema. Presencia de pulga"
+183,1,65,NA,Peromyscus sp.,Peromyscus,morfo 3,H,Juv,SC,21.5,15.6,99,70,169,35.2,21,6/3/2022,Morfo Melanomys
+184,1,65,A5,Peromyscus sp.,Peromyscus,morfo 1,M,Sad,TI,20.2,16.8,100,76,176,37.9,25,6/3/2022,Morfo café amarillo
+185,1,65,A7,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20.2,16.9,95,65,160,39,24,6/3/2022,"Morfo café amarillo, revisar coloración pelaje juvenil"
+186,1,65,A8,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,22.2,18.7,120,75,195,41.5,25,6/3/2022,"Morfo café amarillo, con tonalidades como el capturado en Estanzuela. Lactando. Dos pares de mamas. Muesca en oreja izquierda. Se tomo muestra de heces. Presencia de pulga"
+187,1,65,B7,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,22.3,17.5,96,65,161,33.1,17,6/3/2022,"Morfo café amarillo, revisar pelaje juvenil. Presencia de pulga. Almohadillas de las extremidades posteriores oscuras"
+188,1,65,B9,Sigmodon hispidus,Sigmodon,hispidus,M,Ad,TE,28.9,13.9,102,115,217,25.8,82,6/3/2022,No se revisaron parasitos
+189,1,65,B10,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21.1,15.9,102,72,174,32.2,24,6/3/2022,"Morfo café amarillo, flancos naranjas, morfo similar al capturado en Estanzuela"
+190,1,65,B12,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,20.4,16.3,110,80,190,32.3,26,6/3/2022,"Tres pares de mamas, morfo café amarillo con flanco naranjas. No se tomo muestra de heces"
+191,1,65,C3,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,20.7,14.8,104,61,165,31.7,24,6/3/2022,"Morfo café amarillo, con tonalidades naranjas"
+192,1,65,C6,Peromyscus sp.,Peromyscus,morfo 1,M,Sad,TI,19.2,15.9,80,67,147,32,23,6/3/2022,Morfo café amarillo
+193,1,65,C7,Peromyscus sp.,Peromyscus,morfo 3,H,Ad ,SC,21,15.3,35,70,105,39,22,6/3/2022,"Morfo café marrón, coloración como el ID 161. No se tomó tejido por la longitud de la cola"
+194,1,65,D1,Peromyscus sp.,Peromyscus,morfo 3,M,Sad,TI,20.7,16.4,100,72,172,36,22,6/3/2022,Morfo café marrón como ID 161
+195,1,65,D8,Peromyscus  sp.,Peromyscus,morfo 3,H,Ad,SA,21.5,16.5,103,77,180,32.6,21,6/3/2022,"Morfo café marrón, coloración como Melanomys"
+196,1,65,D6,Peromyscus sp.,Peromyscus,morfo 3,M,Ad,TE,21.8,16.6,110,81,191,36,25,6/3/2022,"Morfo café marrón, coloración como ID 161 pero presenta tonalidades naranjas en mejillas, cuello y flancos"
+164,1,65,A2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/3/2022,Recaptura
+154,1,65,B2,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/3/2022,Recaptura
+157,1,65,C5,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/3/2022,Recaptura
+164,1,65,D3,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/3/2022,Recaptura
+166,1,65,D5,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,6/3/2022,Recaptura
+197,1,66,A1,Reithrodontomys fulvescens,Reithrodontomys ,fulvescens,M,Juv,TI,17.8,14.4,102,52,154,25,12,7/15/2022,
+198,1,66,A6,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TI,21,17,102,82,184,37,24,7/15/2022,Morfo amarillo café
+199,1,66,A11,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,16,88,79,167,40,25,7/15/2022,"Morfo amarillo café, flancos naranjas, muesca en oreja izquierda, testiculos iniciando descenso al escroto"
+200,1,66,B7,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,22,19,125,75,200,38,21,7/15/2022,Morfo naranjas flancos naranjas fuertemente marcados
+201,1,66,B11,Peromyscus sp.,Peromyscus,morfo 3,M,Ad,TE,22,18,111,75,186,39,19,7/15/2022,"Morfo naranja, como individuos de Estanzuela; base del vientre oscura y punta beige, flancos naranjas marcados, vibrisas oscuras; presenta línea naranja que atraviesa el vientre de forma longitudinal"
+202,1,66,C13,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19,16,110,72,182,39,16,7/15/2022,"Morfo amarillo café, presencia flancos naranjas, sin muestra de heces"
+203,1,66,D9,Sigmodon hispidus,Sigmodon,hispidus,M,Ad,TE,29,14,95,123,218,32,75,7/15/2022,
+198,1,66,A8,Peromyscus sp.,Peromyscus,,,,,,,,,0,,,7/16/2022,Recaptura
+204,1,66,B12,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,18,110,70,180,39,16,7/16/2022,Morfo amarillo café
+205,1,66,C9,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,19,17,107,69,176,40,20,7/16/2022,"Morfo amarillo café, subadulto"
+206,1,66,C13,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19,18,100,72,172,40,17,7/16/2022,Morfo amarillo café; muesca en oreja izquierda
+207,1,66,D5,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,20.5,17,106,62,168,40,19,7/16/2022,"Morfo amarillo café, presencia flancos naranjas"
+208,1,66,D11,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,20.5,17,116,67,183,37,20,7/16/2022,"Morfo amarillo café, posible recaptura de Octubre, tenia la cola cortada en su parte distal"
+,1,66,D12,Peromyscus sp.,Peromyscus,morfo 1,,,,,,,,0,,,7/16/2022,"Morfo amarillo café, Escapó"
+209,1,66,A1,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21,18,115,73,188,40,21,7/17/2022,"Morfo amarillo café, sin muestra de heces"
+210,1,66,A2,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20,17,115,65,180,39,20,7/17/2022,"Morfo amarillo café, muesca en oreja derecha"
+211,1,66,A5,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,21,16,106,62,168,33,16,7/17/2022,Morfo amarillo café
+212,1,66,A8,Peromyscus sp.,Peromyscus,morfo 2,M,Juv,TI,21,15,106,67,173,34,16,7/17/2022,"Morfo amarillo café, flancos naranjas, coloración del vientre beige/naranja, morfo similar a Estanzuela"
+199,1,66,A11,Peromyscus sp.,Peromyscus,,,,,,,,,0,,,7/17/2022,Recaptura
+213,1,66,B6,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,20,17,112,72,184,37,19,7/17/2022,Morfo amarillo café
+214,1,66,B10,Peromyscus sp.,Peromyscus,morfo 3,M,SAd,TE,19,16,102,63,165,36,19,7/17/2022,"Morfo amarillo café, vientre crema y naranja como morfo estanzuela"
+201,1,66,B11,Peromyscus sp.,Peromyscus,,,,,,,,,0,,,7/17/2022,Recaptura
+215,1,66,B12,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20,17,115,74,189,35,20,7/17/2022,Morfo amarillo café
+216,1,66,D8,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,21,17,98,72,170,37,18,7/17/2022,"Morfo amarillo café, probable recaptura de octubre"
+217,1,66,D9,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,22,17,107,74,181,38,20,7/17/2022,"Morfo amarillo café, con flancos naranjas"
+218,1,66,C9,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,19,17,106,70,176,39,16,7/17/2022,"Morfo amarillo café, flancos naranjas, vientre blanco, tiene una protuberancia en el abdomen"
+219,1,66,C11,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19,16,110,68,178,36,19,7/17/2022,Morfo amarillo café
+220,1,66,C12,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,21,16,110,67,177,37,18,7/17/2022,"Morfo amarillo café, flancos naranjas"
+221,0,60,A3,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,21,16,110,67,177,37,18,7/20/2022,"Morfo amarillo café, flancos naranjas"
+222,0,60,A5,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,20,15,92,73,165,38,22,7/20/2022,"Morfo amarillo café, flancos naranjas, coloración naranja cuello, vientre color crema"
+223,0,60,A8,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20,16,57,62,119,30,19,7/20/2022,"Morfo amarillo café, cola corta, sin muestra de tejido"
+224,0,60,A11,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,21,15,91,65,156,29,22,7/20/2022,Morfo amarillo café
+225,0,60,A3,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,22,16,95,72,167,33,24,7/21/2022,"Morfo amarillo café, pelaje juvenil, vientre grisáceo, muesca en oreja derecha"
+226,0,60,A11,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,21,16,102,68,170,38,21,7/21/2022,"Morfo amarillo café, flancos naranjas tenues, vientre claro"
+223,0,60,A6,Peromyscus sp.,Peromyscus,,,,,,,,,0,,,7/22/2022,Recaptura
+227,1,63,A4,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21,16.5,102,80,182,36,23,19/08/22,Morfo amarillo café
+228,1,63,A6,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,21,17,106,80,186,35.5,28,19/08/22,"Morfo amarillo café, flancos amarillos, vientre crema, mamas desarrolladas, sin muestra de pelo"
+229,1,63,A8,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,Preñada|SA,21,16,104,73,177,35,18,19/08/22,Pelaje juvenil
+230,1,63,A11,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,18,98,85,183,40,24,19/08/22,"Sin tejido. Morfo amarillo café-naranja, cachetes y flancos con coloración amarillo-naranja. Vientre en base oscura, punta crema; dorso con tonalidades marron-naranja; linea lateral entre vientre y dorso muy marcada; cola parcialmente bicoloreada; almohadillas desarrolladas; cola mocha. "
+231,1,63,A12,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,20,17,73,80,153,37,29,19/08/22,"Sin tejido. Morfo amarillo-café naranja, coloración naranja muy marcada, cola mocha, almohadillas bien desarrolladas, tres pares de mamas. "
+232,1,63,B5,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,Preñada|SA,20,17.5,100,77,177,34,22,19/08/22,"Morfo amarillo café-naranja, flancos naranjas, cola parcialmente bicoloreada, tres pares de mamas. Mamas desarrolladas. Probablemente preñada"
+233,1,63,B7,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20,16,99,67,166,34,19,19/08/22,"Morfo amarillo café, almohadillas desarrolladas y oscuras"
+234,1,63,B8,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,16,111,72,183,36,25,19/08/22,"Morfo amarillo-café naranja, dorso naranja, flancos y cachetes naranjas, coloración entre vientre y dorso muy marcada por linea lateral, cola parcialmente bicoloreada, testiculos bajando "
+235,1,63,B10,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,22,16,117,87,204,36,31,19/08/22,"Morfo amarillo-café, mamas desarrolladas"
+236,1,63,C1,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,21,15,87,65,152,30,15,19/08/22,"Morfo amarillo café, coloración de pelaje juvenil, nombrado antes morfo gris"
+NA,1,63,C2,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,17,106,77,183,38,19,19/08/22,"Sin tejido, sin arete. Morfo amarillo-café-naranaja, flancos naranjas, vientre oscuro en base crema en punta, corte en oreja derecha, cola bicoloreada y cubierta de pelo. "
+237,1,63,C3,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,20,15,103,75,178,34,24,19/08/22,"Morfo amarillo-café-naranja, flancos, cuello y cachetes naranjas; coloración marron en dorso"
+238,1,63,C6,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,21,16,105,73,178,34,20,19/08/22,Morfo amarillo-café. Tornando a coloración de pelaje de adulto
+239,1,63,C10,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,19,17,87,72,159,34,15,19/08/22,Morfo amarillo-café
+240,1,63,C11,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TE,21,15.5,100.5,70,170.5,36,20,19/08/22,"Morfo amarillo-café, pasando a coloración adulta"
+241,1,63,C13,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,16,100,81,181,36,24,19/08/22,"Morfo amarillo-café, flancos naranjas, vientre muy blanco, revisar fotos"
+242,1,63,D2,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,20,16.5,107,80,187,38,22,19/08/22,"Morfo amrillo café, flancos naranja claros, cola bicoloreadas y cubierta de pelos, muesca en oreja izquierda y tres en la derecha"
+243,1,63,D6,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,SC,20,15.5,89,77,166,33,17,19/08/22,"Amarillo café, pelaje juvenil"
+244,1,63,D8,Peromyscus sp.,Peromyscus,morfo 1,H,SAd,SC,20.5,17,106,76,182,32.5,21,19/08/22,Morfo amarillo café
+245,1,63,D9,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21,17,102,87,189,34,22,19/08/22,Morfo amarillo-café
+246,1,63,D10,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,15,87,66,153,31,12,19/08/22,Cria pasando a juvenil
+247,1,63,A11,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,SA,20.5,17,105,80,185,34,24,20/08/22,Morfo amarillo café
+248,1,63,A12,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20,17,93,82,175,35,23,20/08/22,Morfo amarillo café
+249,1,63,B8,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,20.5,16,97,73,170,35,32,20/08/22,"Morfo amarillo café, lunar blanco abajo del ojo derecho"
+250,1,63,B12,Peromyscus sp.,Peromyscus,morfo 2,M,Juv,TI,20.5,16,102,67,169,34,15,20/08/22,"Morfo amarillo café, flancos naranjas, coloracion juvenil"
+251,1,63,B2,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,19.5,16,105,91,196,37,25,20/08/22,"Morfo naranja, tres pares de mamas, vientre crema, dorso marron, laterales naranjas, coloa bicoloreada"
+252,1,63,C10,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,20.5,16,112,76,188,34,23,20/08/22,morfo amarillo café
+253,1,63,D1,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TI,20,16,100,82,182,40,27,20/08/22,"Morfo amrillo café, cachetes y flancos naranjas, vientre crema. Los testiculos estan bajando"
+254,1,63,D2,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,21,16,98,74,172,36,21,20/08/22,"Morfo amarillo café-naranja, dorso marron, naranja en flancos y cuello, cola bicoloreada"
+255,1,63,D6,Peromyscus sp.,Peromyscus,morfo 1,H,Juv,YI,20,16,90,72,162,28,16,20/08/22,Morfo amarillo café
+256,1,63,D10,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,Preñada,21,16,105,78,183,33,28,20/08/22,"Morfo amarillo café-naranja, dorso marron, oreja naranja"
+228,1,63,A6,,,,,,,,,,,,,,20/08/22,Recaptura
+240,1,63,A13,,,,,,,,,,,,,,20/08/22,Recaptura
+233,1,63,B7,,,,,,,,,,,,,,20/08/22,Recaptura
+236,1,63,C1,,,,,,,,,,,,,,20/08/22,Recaptura
+238,1,63,C6,,,,,,,,,,,,,,20/08/22,Recaptura
+,1,63,A7,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21,17,,,0,40,29,20/08/22,"Se escapo, amarillo café"
+257,1,63,A8,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,21,16.5,104,72,176,34,23,21/08/22,"Morfo amarillo café, pelaje juvenil"
+258,1,63,A12,Liomys irroratus,Liomys ,irroratus,H,Ad,SA,29,13,135,112,247,29,43,21/08/22,Presencia garrapata roja
+259,1,63,C1,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,15.5,95,71,166,34,18,21/08/22,"Amarillo café, pelaje juvenil, presencia de pulgas"
+260,1,63,C2,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,16.5,103,80,183,36,24,21/08/22,"Morfo amarillo café-naranja, flancos, cachetes y cuello naranja, dorso marron, presencia pulgas"
+261,1,63,C5,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20.5,16,98,78,176,34,33,21/08/22,"morfo amarillo café, vientre blanco"
+262,1,63,C6,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,Preñada,21,16,105,80,185,37,33,21/08/22,"Morfo amarillo café-naranaja, mamas desarrolladas, muesca en oreja derecha"
+263,1,63,C10,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Lactante,19,17,95,74,169,36,25,21/08/22,"Sin heces. Morfo amarillo café, mamas desarrolladas, lactante, hueco en oreja izquierda"
+264,1,63,D2,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,21,16,99,80,179,35,23,21/08/22,"Morfo amarillo café, con garrapatas"
+265,1,63,D6,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20,17,95,75,170,35,27,21/08/22,"Morfo amarillo café, contraste marcado entre dorso y vientre, flancos marron claro y vientre blanco"
+266,1,63,D9,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,19,17,93,82,175,35,29,21/08/22,"Sin tejido. Morfo amarillo café, presencia pulgas, pata izq más grande (21 mm) "
+240,1,63,A13,,,,,,,,,,,0,,,21/08/22,Recaptura
+232,1,63,B5,,,,,,,,,,,0,,,21/08/22,Recaptura
+250,1,63,B10,,,,,,,,,,,0,,,21/08/22,Recaptura
+242,1,63,D1,,,,,,,,,,,0,,,21/08/22,Recaptura
+267,0,57,B1,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20.5,16,91,75,166,,,24/08/22,
+268,0,57,B2,Peromyscus sp.,Peromyscus,morfo 2,H,Ad,SA,21,16,112,87,199,36,22,24/08/22,"Morfo amarillo café-naranja, dorso marron oscuro, vientre crema, flancos naranjas, cola semi bicoloreada, orejas oscuras"
+269,0,57,B3,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21,17,108,89,197,37,26,24/08/22,"Morfo amarillo café-naranaja, lateral marron naranja, contraste marcado entre vientre y dorso"
+270,0,57,B7,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,21,16,95,80,175,39,21,24/08/22,"Morfo amarillo café, coloración juvenil, parecido a ID 269"
+271,0,57,D1,Peromyscus sp.,Peromyscus,morfo 1,M,SAd,TI,21,16.5,100,82,182,39,27,24/08/22,"Morfo amarillo café, cola bicoloreada, linea dorsal y ventral bien marcada, cachetes naranjas"
+272,0,57,B2,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,20,16,96,78,174,38,25,25/08/22,"Morfo amarillo café-naranja, pelaje pasando a adulto"
+273,0,57,B7,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TE,21.5,17,104,86,190,38.5,24,25/08/22,"Morfo amarillo café, linea entre dorso y vientre muy marcado, dorso marron rojizo"
+274,0,57,B10,Peromyscus sp.,Peromyscus,morfo 2,H,Juv,SC,19,15,105,80,185,37,22,25/08/22,"Sin tejido. Morfo amarillo café-naranja, flancos, cachetes y cuello naranjas, vientre crema"
+275,0,57,C1,Peromyscus sp.,Peromyscus,morfo 2,M,Juv,TI,19,16,95,71,166,37,25,25/08/22,"Morfo amarillo café naranja, flancos y cachetes naranjas claro, coloración juvenil, subadulto"
+267,0,57,A1,,,,,,,,,,,,,,25/08/22,
+268,0,57,B2,,,,,,,,,,,,,,25/08/22,
+270,0,57,C7,,,,,,,,,,,,,,25/08/22,
+NA,0,57,D1,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20,16,105,83,188,38,22,26/08/22,"Morfo amarillo café, vientre blanco, linea entre dorso y vientre muy marcada, dorso marron rojizo, cachete naranja claro, cola bicoloreada"
+276,0,57,A1,Peromyscus sp.,Peromyscus,morfo 1,M,Ad,TE,20,15,102,80,182,35,24,26/08/22,"Sin heces. Morfo amarillo café, vientre crema"
+277,0,57,A7,Peromyscus sp.,Peromyscus,morfo 1,H,Ad,Preñada,20,16,103,75,178,35,23,26/08/22,Morfo amarillo café
+278,0,57,B12,Peromyscus sp.,Peromyscus,morfo 1,M,Juv,TI,20,15,91,77,168,33,22,26/08/22,"Morfo amarillo café, pelaje juvenil"
+279,0,57,C5,Peromyscus sp.,Peromyscus,morfo 2,M,Ad,TI,20,16,106,85,191,36,27,26/08/22,"Sin heces. Morfo amarillo café-naranja, vientre blanco"
+273,0,57,A4,,,,,,,,,,,,,,26/08/22,
+275,0,57,B1,,,,,,,,,,,,,,26/08/22,
+268,0,57,B3,,,,,,,,,,,,,,26/08/22,
+270,0,57,B7,,,,,,,,,,,,,,26/08/22,
+272,0,57,C1,,,,,,,,,,,,,,26/08/22,

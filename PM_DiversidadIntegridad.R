@@ -50,44 +50,44 @@ hill_div <- data.frame(q0=q0, q1=q1, q2=q2)
 
 X <- iNEXT(PM, q=c(0,1,2), datatype="abundance", )
 
-Nodo57 <- X$iNextEst$`57` %>% 
+N57 <- X$iNextEst$`57` %>% 
   filter(method== "observed")
 
-Nodo58 <- X$iNextEst$`58` %>% 
+N58 <- X$iNextEst$`58` %>% 
   filter(method== "observed")
 
-Nodo60 <- X$iNextEst$`60`%>% 
+N60 <- X$iNextEst$`60`%>% 
   filter(method== "observed")
 
-Nodo61 <- X$iNextEst$`61`%>% 
+N61 <- X$iNextEst$`61`%>% 
   filter(method== "observed")
 
-Nodo62 <- X$iNextEst$`62`%>% 
+N62 <- X$iNextEst$`62`%>% 
   filter(method== "observed")
 
-Nodo63 <- X$iNextEst$`63`%>% 
+N63 <- X$iNextEst$`63`%>% 
   filter(method== "observed")
 
-Nodo64 <- X$iNextEst$`64`%>% 
+N64 <- X$iNextEst$`64`%>% 
   filter(method== "observed")
 
-Nodo65 <- X$iNextEst$`65`%>% 
+N65 <- X$iNextEst$`65`%>% 
   filter(method== "observed")
 
-Nodo66 <- X$iNextEst$`66`%>% 
+N66 <- X$iNextEst$`66`%>% 
   filter(method== "observed")
 
-div <- bind_rows(Nodo57, Nodo58, Nodo60, Nodo61, Nodo62, Nodo63, Nodo64,
-                 Nodo65, Nodo66) %>% 
-  mutate(nodo= c(rep("Nodo57", 3),
-                 rep("Nodo58", 3),
-                 rep("Nodo60", 3),
-                 rep("Nodo61", 3),
-                 rep("Nodo62", 3),
-                 rep("Nodo63", 3),
-                 rep("Nodo64", 3),
-                 rep("Nodo65", 3),
-                 rep("Nodo66", 3))) %>% 
+div <- bind_rows(N57, N58, N60, N61, N62, N63, N64,
+                 N65, N66) %>% 
+  mutate(nodo= c(rep("N57", 3),
+                 rep("N58", 3),
+                 rep("N60", 3),
+                 rep("N61", 3),
+                 rep("N62", 3),
+                 rep("N63", 3),
+                 rep("N64", 3),
+                 rep("N65", 3),
+                 rep("N66", 3))) %>% 
   select(nodo, order, qD, qD.LCL, qD.UCL) %>% 
   pivot_wider(names_from = order, 
               values_from = c(qD,qD.LCL, qD.UCL )) %>% 
@@ -99,69 +99,70 @@ div <- bind_rows(Nodo57, Nodo58, Nodo60, Nodo61, Nodo62, Nodo63, Nodo64,
 # Gráficas cada qD --------------------------------------------------------
 
 p1 <- ggplot(div, aes(x= nodo , y=qD_0, colour=nodo))+
-  geom_pointrange(aes(shape=Integridad, ymin= qD.LCL_0, ymax=qD.UCL_0), size=.8, alpha=0.7)+
+  geom_pointrange(aes(shape=Integridad, ymin= qD.LCL_0, ymax=qD.UCL_0), size=1, alpha=0.9)+
   theme_ipsum_tw(grid="Y", axis=T)+
   labs(x=NULL, y="Número de especies",
        title="Riqueza por nodo",
        subtitle = "")+
   theme(axis.text.x=element_text(size = 14),
         axis.text.y=element_text(size = 14),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
+        axis.title.x = element_text(size = 17),
+        axis.title.y = element_text(size = 18),
         legend.position = "none",
-        plot.title = element_text(size = 15),
+        plot.title = element_text(size = 18),
         plot.subtitle = element_text(size = 16))+
   scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.8)
 
 
 
 p2 <- ggplot(div, aes(x= nodo , y=qD_1, colour=nodo))+
-  geom_pointrange(aes(shape=Integridad, ymin= qD.LCL_1, ymax=qD.UCL_1), size=.8, alpha=0.7)+
+  geom_pointrange(aes(shape=Integridad, ymin= qD.LCL_1, ymax=qD.UCL_1), size=1, alpha=0.9)+
   theme_ipsum_tw(grid="Y", axis=T)+
-  labs(x=NULL, y="Número de especies igualmente abundantes",
+  labs(x="Nodos", y="Número de especies igualmente abundantes",
        title="qD1",
        subtitle = "")+
   theme(axis.text.x=element_text(size = 14),
         axis.text.y=element_text(size = 14),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
+        axis.title.x = element_text(size = 17),
+        axis.title.y = element_text(size = 18),
         legend.position = "none",
-        plot.title = element_text(size = 15),
+        plot.title = element_text(size = 18),
         plot.subtitle = element_text(size = 16))+
   scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.8)
 
 p3 <- ggplot(div, aes(x= nodo , y=qD_2, colour=nodo))+
-  geom_pointrange(aes(shape=Integridad, ymin= qD.LCL_2, ymax=qD.UCL_2), size=.8, alpha=0.7)+
+  geom_pointrange(aes(shape=Integridad, ymin= qD.LCL_2, ymax=qD.UCL_2), size=1, alpha=0.9)+
   theme_ipsum_tw(grid="Y", axis=T)+
   labs(x=NULL, y="Número de especies dominantes",
        title="qD2",
        subtitle = "")+
   theme(axis.text.x=element_text( size = 14),
         axis.text.y=element_text(size = 14),
-        axis.title.x = element_text(size = 16),
-        axis.title.y = element_text(size = 16),
+        axis.title.x = element_text(size = 17),
+        axis.title.y = element_text(size = 18),
         legend.position = "none",
-        plot.title = element_text(size = 15),
+        plot.title = element_text(size = 18),
         plot.subtitle = element_text(size = 16))+
   scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.8)
 
 plot_qs <- p1+p2+p3
+plot_qs
 
-ggsave(filename = "figures/Qs.png", plot = plot_qs, width = 20, height = 7)
+ggsave(filename = "figures/Qs.png", plot = plot_qs, width = 15, height = 6)
 
 # Gráfica perfiles por nodo -----------------------------------------------
 
-perf <- bind_rows(Nodo57, Nodo58, Nodo60, Nodo61, Nodo62, Nodo63, Nodo64,
-                 Nodo65, Nodo66) %>% 
-  mutate(nodo= c(rep("Nodo57", 3),
-                 rep("Nodo58", 3),
-                 rep("Nodo60", 3),
-                 rep("Nodo61", 3),
-                 rep("Nodo62", 3),
-                 rep("Nodo63", 3),
-                 rep("Nodo64", 3),
-                 rep("Nodo65", 3),
-                 rep("Nodo66", 3))) %>% 
+perf <- bind_rows(N57, N58, N60, N61, N62, N63, N64,
+                 N65, N66) %>% 
+  mutate(nodo= c(rep("N57", 3),
+                 rep("N58", 3),
+                 rep("N60", 3),
+                 rep("N61", 3),
+                 rep("N62", 3),
+                 rep("N63", 3),
+                 rep("N64", 3),
+                 rep("N65", 3),
+                 rep("N66", 3))) %>% 
   select(nodo, order, qD, qD.LCL, qD.UCL) %>% 
   mutate(Integridad= rep(c("0", "0", "0", "0", "1", "1", "1", "1", "1"), each=3))
 
@@ -171,23 +172,25 @@ PerfPlot <- ggplot(perf, aes(x=nodo, y=qD,
                              color=as.factor(order)))+
             geom_pointrange(aes(shape=Integridad, ymin=qD.LCL, ymax= qD.UCL),
                   position = position_dodge(width = 0.5),
-                  size=1,
-                  alpha=0.7)+
+                  size=1.3,
+                  alpha=0.9)+
             labs(x= "Nodo",color= " Diversidad")+
             theme_ipsum_tw(grid="Y", axis=T)+
-            labs(x=NULL, y="Número de especies dominantes",
+            labs(x="Nodos", y="Diversidad",
                 title="Perfiles de diversidad por nodo",
                 subtitle = "")+
-            theme(axis.text.x=element_text( size = 18),
-                  axis.text.y=element_text(size = 18),
-                 axis.title.y = element_text(size = 18),
-                 plot.title = element_text(size = 19),
+            theme(axis.text.x=element_text( size = 19),
+                  axis.text.y=element_text(size = 19),
+                 axis.title.y = element_text(size = 24),
+                 axis.title.x = element_text(size = 24),
+                 plot.title = element_text(size = 22),
                  plot.subtitle = element_text(size = 16),
-                 legend.text = element_text(size = 16),
-                 legend.title = element_text(size = 18),)+
+                 legend.text = element_text(size = 19),
+                 legend.title = element_text(size = 21),)+
             scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.8)
+PerfPlot
 
-ggsave(filename = "figures/perfPlot.png", plot = PerfPlot, width = 20, height = 7)
+ggsave(filename = "img/perfPlot.png", plot = PerfPlot, width = 12, height = 7)
 
 # Modelos -----------------------------------------------------------------
 
@@ -201,69 +204,97 @@ div_mod <- div %>%
   bind_rows(adicionales) %>% 
   mutate(Integridad= c("0", "0", "0", "0", "1", "1", "1", "1", "1", "0"))
 
+# write.csv(div_mod, file="Div.mod.csv")
+
+#div_mod <- read.csv("Div.mod.csv", header = T)
+
+div.mod <- read.csv("Div.mod.csv", sep=",", header = T)
 
 # Modelos qD0
 
 summary(m0_qD0 <- glm(qD_0 ~ 1, data = div_mod, family = "poisson")) 
 summary(m1_qD0 <- glm(qD_0 ~ Integridad, data = div_mod,  family = "poisson"))
+summary(m2_qD0 <- glm(qD_0 ~ X250_m, data = div_mod,  family = "poisson"))
+summary(m3_qD0 <- glm(qD_0 ~ X1_km, data = div_mod,  family = "poisson"))
 
-cand_q0 <- list(m0_qD0, m1_qD0)
+cand_q0 <- list(m0_qD0, m1_qD0, m2_qD0, m3_qD0)
 names_q0 <- c("Nulo",
-              "qD0 ~ Integridad")
+              "qD0 ~ Integridad",
+              "qD0 ~ X250_m",
+              "qD0 ~ X1_km")
 AICc_q0 <- aictab(cand_q0,
                   modnames = names_q0,
                   second.ord = T,
                   sort = T)
 
 q0_predict <- ggpredict(m1_qD0, terms = "Integridad")
+q0m2_predict <- ggpredict(m2_qD0, terms = "X250_m")
+q0m3_predict <- ggpredict(m3_qD0, terms = "X1_km")
 
 par_m0qD0 <- model_parameters(m0_qD0)
 par_m1qD0 <- model_parameters(m1_qD0)
+par_m2qD0 <- model_parameters(m2_qD0)
+par_m3qD0 <- model_parameters(m3_qD0)
 
 write.csv(par_m0qD0, file = "results/par_m0qD0.csv")
 write.csv(par_m1qD0, file = "results/par_m1qD0.csv")
+write.csv(par_m2qD0, file = "results/par_m2qD0.csv")
+write.csv(par_m3qD0, file = "results/par_m3qD0.csv")
 
   # Plot modelo qD0 
 
-qD0Plot <- ggplot(q0_predict, aes(x= as.factor(x), y=predicted, colour=x))+
-  geom_point(size=3)+
+qD0Plot <- ggplot(q0_predict, aes(x= as.factor(x), y=predicted, colour=as.factor(x)))+
+  geom_point(size=6)+
   geom_errorbar(aes(ymin= conf.low, ymax= conf.high),
-                width= 0.11,
-                size=0.8)+
+                width= 0.12,
+                size=1.5)+
   theme_ipsum_tw(grid="Y", axis=T)+
-  labs(x= NULL, y="qD0",
-       title="Diversidad estimada por categoria de integridad",
+  labs(x= "Categoria integridad", y="qD0",
+       title=NULL,
        subtitle = "")+
-  theme(axis.text.x=element_text( size = 18),
-        axis.text.y=element_text(size = 18),
-        axis.title.y = element_text(size = 19),
-        plot.title = element_text(size = 20),
+  theme(axis.text.x=element_text( size = 26),
+        axis.text.y=element_text(size = 26),
+        axis.title.y = element_text(size = 29),
+        axis.title.x = element_text(size = 29),
+        plot.title = element_text(size = 30),
         plot.subtitle = element_text(size = 16),
         legend.text = element_text(size = 16),
         legend.position = "none")+
-  scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.6)
+  scale_color_viridis(discrete = T, option = "inferno", begin = 0.3, end= 0.7)
 qD0Plot 
 
-# Modelos qD1
+ggsave(filename = "figures/m1_qD0.png", plot = qD0Plot, width = 8, height = 7)
 
-summary(m0_qD1 <- glm(qD_1 ~ 1, data = div_mod, family = "gaussian")) 
+## Modelos qD1
+
+summary(m0_qD1 <- lm(qD_1 ~ 1, data = div_mod)) 
 summary(m1_qD1 <- lm(qD_1 ~ Integridad, data = div_mod))
+summary(m2_qD1 <- lm(qD_1 ~ X250_m, data = div_mod))
+summary(m3_qD1 <- lm(qD_1 ~ X1_km, data = div_mod))
 
-cand_q1 <- list(m0_qD1, m1_qD1)
+cand_q1 <- list(m0_qD1, m1_qD1, m2_qD1, m3_qD1)
 names_q1 <- c("Nulo",
-              "qD1 ~ Integridad")
+              "qD1 ~ Integridad",
+              "qD1 ~ X250_m",
+              "qD1 ~ X1_km")
+
 AICc_q1 <- aictab(cand_q1,
                   modnames = names_q1,
                   second.ord = T,
                   sort = T)
 
 q1_predict <- ggpredict(m1_qD1, terms = "Integridad")
+q1m2_predict <- ggpredict(m2_qD1, terms = "X250_m")
+q1m3_predict <- ggpredict(m3_qD1, terms = "X1_km")
 
 par_m0qD1 <- model_parameters(m0_qD1)
 par_m1qD1 <- model_parameters(m1_qD1)
+par_m2qD1 <- model_parameters(m2_qD1)
+par_m3qD1 <- model_parameters(m3_qD1)
 
 write.csv(par_m0qD1, file = "results/par_m0qD1.csv")
 write.csv(par_m1qD1, file = "results/par_m1qD1.csv")
+
 
 ## Plot modelo qD1
 
@@ -286,21 +317,30 @@ qD1Plot <- ggplot(q1_predict, aes(x= as.factor(x), y=predicted, colour=x))+
 
 # Modelos qD2
 
-summary(m0_qD2 <- glm(qD_2 ~ 1, data = div_mod, family = "gaussian")) 
+summary(m0_qD2 <- lm(qD_2 ~ 1, data = div_mod)) 
 summary(m1_qD2 <- lm(qD_2 ~ Integridad, data = div_mod))
+summary(m2_qD2 <- lm(qD_2 ~ X250_m, data = div_mod))
+summary(m3_qD2 <- lm(qD_2 ~ X1_km, data = div_mod))
 
-cand_q2 <- list(m0_qD2, m1_qD2)
+cand_q2 <- list(m0_qD2, m1_qD2, m2_qD2, m3_qD2)
 names_q2 <- c("Nulo",
-              "qD2 ~ Integridad")
+              "qD2 ~ Integridad",
+              "qD2 ~ X250_m",
+              "qD2 ~ X1_km")
+
 AICc_q2 <- aictab(cand_q2,
                   modnames = names_q2,
                   second.ord = T,
                   sort = T)
 
 q2_predict <- ggpredict(m1_qD2, terms = "Integridad")
+q2m2_predict <- ggpredict(m2_qD2, terms = "X250_m")
+q2m3_predict <- ggpredict(m3_qD2, terms = "X1_km")
 
 par_m0qD2 <- model_parameters(m0_qD2)
 par_m1qD2 <- model_parameters(m1_qD2)
+par_m2qD2 <- model_parameters(m2_qD2)
+par_m3qD2 <- model_parameters(m3_qD2)
 
 write.csv(par_m0qD2, file = "results/par_m0qD2.csv")
 write.csv(par_m1qD2, file = "results/par_m1qD2.csv")

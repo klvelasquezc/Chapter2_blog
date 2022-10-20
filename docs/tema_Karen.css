@@ -29,13 +29,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Libre Baskerville";
   letter-spacing: 2px;
-  line-height: 2rem; /* increases, so wrapping headers don't overlap */ 
+  line-height: 3rem; /* increases, so wrapping headers don't overlap */ 
   color: #096B72;
   font-weight: 300;
 }
 
 d-title {
-  padding-top: 13rem; /*so that navbar doesn't overlap fixed title */
+  padding-top: 16rem; /*so that navbar doesn't overlap fixed title */
 }
 
 d-title h1,
@@ -46,7 +46,7 @@ d-article h2 {
 d-article div.sourceCode code, 
 d-article pre code {
 	font-family: "DM Mono", monospace;
-	font-size: 1rem;
+	font-size: 0.9rem;
 }
 
 /* --------------Navbar-------------------- */
@@ -54,9 +54,9 @@ d-article pre code {
 
 /* background-image for fade-to-white color of navbar */
 .distill-site-header{ 
-  padding: 40px 0px;
+  padding: 20px 0px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255,255,255,0.5));   
-  background-color: transparent;
+  background-color: #d9fdfb;
   font-size: 15px;
   font-family: "Libre Baskerville";
   letter-spacing: 2px;
@@ -64,7 +64,7 @@ d-article pre code {
 }
 
 .distill-site-header .logo img{
-  max-height: 40px; /* Makes logo bigger, default was 20px */
+  max-height: 110px; /* Makes logo bigger, default was 20px */
 }
 
 /* dropdown navbar color on mobile */
